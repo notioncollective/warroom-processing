@@ -1,0 +1,5014 @@
+<!-- http://api.nytimes.com/svc/politics/v3/us/legislative/congress/house/votes/2011/02.xml?api-key=d79e05d7ab36d22f0b1ff14d30c48ae3:10:40476694 -->
+<?xml version="1.0"?> 
+<result_set> 
+  <status>OK</status> 
+  <copyright>Copyright (c) 2011 The New York Times Company. All Rights Reserved.</copyright> 
+  <results> 
+    <chamber>House</chamber> 
+    <year>2011</year> 
+    <month>Feb.</month> 
+    <num_results>125</num_results> 
+    <votes> 
+            <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>150</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/150.xml</vote_uri> 
+        <bill_number>H R 368</bill_number> 
+        <question>On Motion to Suspend the Rules and Pass, as Amended</question> 
+        <description>Removal Clarification Act</description> 
+        <vote_type>2/3 YEA-AND-NAY</vote_type> 
+        <date>2011-02-28</date> 
+        <time>19:09:00</time> 
+        <result>Passed</result> 
+        <democratic> 
+          <yes>176</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>16</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>220</yes> 
+          <no>4</no> 
+          <present>0</present> 
+          <not_voting>17</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>396</yes> 
+          <no>4</no> 
+          <present>0</present> 
+          <not_voting>32</not_voting> 
+          <margin>392</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>149</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/149.xml</vote_uri> 
+        <bill_number>H R 347</bill_number> 
+        <question>On Motion to Suspend the Rules and Pass, as Amended</question> 
+        <description>Federal Restricted Buildings and Grounds Improvement Act</description> 
+        <vote_type>2/3 YEA-AND-NAY</vote_type> 
+        <date>2011-02-28</date> 
+        <time>19:03:00</time> 
+        <result>Passed</result> 
+        <democratic> 
+          <yes>176</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>16</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>223</yes> 
+          <no>3</no> 
+          <present>0</present> 
+          <not_voting>15</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>399</yes> 
+          <no>3</no> 
+          <present>0</present> 
+          <not_voting>30</not_voting> 
+          <margin>396</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>148</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/148.xml</vote_uri> 
+        <bill_number>H R 394</bill_number> 
+        <question>On Motion to Suspend the Rules and Pass, as Amended</question> 
+        <description>Federal Courts Jurisdiction and Venue Clarification Act</description> 
+        <vote_type>2/3 YEA-AND-NAY</vote_type> 
+        <date>2011-02-28</date> 
+        <time>18:55:00</time> 
+        <result>Passed</result> 
+        <democratic> 
+          <yes>176</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>16</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>226</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>15</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>402</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>30</not_voting> 
+          <margin>402</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>147</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/147.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Passage</question> 
+        <description>Making appropriations for the Department of Defense and the other departments and agencies of the Government for the fisal year ending September 30, 2011, and for other purposes</description> 
+        <vote_type>YEA-AND-NAY</vote_type> 
+        <date>2011-02-19</date> 
+        <time>04:40:00</time> 
+        <result>Passed</result> 
+        <democratic> 
+          <yes>0</yes> 
+          <no>186</no> 
+          <present>0</present> 
+          <not_voting>7</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>235</yes> 
+          <no>3</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>235</yes> 
+          <no>189</no> 
+          <present>0</present> 
+          <not_voting>9</not_voting> 
+          <margin>46</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>146</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/146.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Motion to Recommit with Instructions</question> 
+        <description>Making appropriations for the Department of Defense and the other departments and agencies of the Government for the fisal year ending September 30, 2011, and for other purposes</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-19</date> 
+        <time>04:33:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>186</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>7</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>0</yes> 
+          <no>238</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>186</yes> 
+          <no>238</no> 
+          <present>0</present> 
+          <not_voting>9</not_voting> 
+          <margin>52</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>145</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/145.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Burgess of Texas Amendment No. 154</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-19</date> 
+        <time>04:09:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>0</yes> 
+          <no>185</no> 
+          <present>0</present> 
+          <not_voting>8</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>235</yes> 
+          <no>2</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>235</yes> 
+          <no>187</no> 
+          <present>0</present> 
+          <not_voting>11</not_voting> 
+          <margin>48</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>144</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/144.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>King of Iowa Amendment No. 273</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-19</date> 
+        <time>04:06:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>0</yes> 
+          <no>185</no> 
+          <present>0</present> 
+          <not_voting>8</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>189</yes> 
+          <no>48</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>189</yes> 
+          <no>233</no> 
+          <present>0</present> 
+          <not_voting>11</not_voting> 
+          <margin>44</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>143</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/143.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Mulvaney of South Carolina Amendment No. 164</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-19</date> 
+        <time>02:25:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>0</yes> 
+          <no>184</no> 
+          <present>0</present> 
+          <not_voting>9</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>93</yes> 
+          <no>144</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>93</yes> 
+          <no>328</no> 
+          <present>0</present> 
+          <not_voting>12</not_voting> 
+          <margin>235</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>142</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/142.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Carney of Delaware Amendment No. 241</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-19</date> 
+        <time>02:21:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>103</yes> 
+          <no>82</no> 
+          <present>0</present> 
+          <not_voting>8</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>18</yes> 
+          <no>218</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>121</yes> 
+          <no>300</no> 
+          <present>0</present> 
+          <not_voting>12</not_voting> 
+          <margin>179</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>141</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/141.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Pitts of Pennsylvania Amendment No. 430</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-19</date> 
+        <time>02:18:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>4</yes> 
+          <no>181</no> 
+          <present>0</present> 
+          <not_voting>8</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>235</yes> 
+          <no>2</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>239</yes> 
+          <no>183</no> 
+          <present>0</present> 
+          <not_voting>11</not_voting> 
+          <margin>56</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>140</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/140.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Noem of South Dakota Amendment No. 563</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-19</date> 
+        <time>02:15:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>21</yes> 
+          <no>164</no> 
+          <present>0</present> 
+          <not_voting>8</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>234</yes> 
+          <no>4</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>255</yes> 
+          <no>168</no> 
+          <present>0</present> 
+          <not_voting>10</not_voting> 
+          <margin>87</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>139</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/139.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Heller of Nevada Amendment No. 482</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-19</date> 
+        <time>02:12:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>5</yes> 
+          <no>179</no> 
+          <present>0</present> 
+          <not_voting>9</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>204</yes> 
+          <no>34</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>209</yes> 
+          <no>213</no> 
+          <present>0</present> 
+          <not_voting>11</not_voting> 
+          <margin>4</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>138</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/138.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Burgess of Texas Amendment No. 200</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-19</date> 
+        <time>02:09:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>4</yes> 
+          <no>181</no> 
+          <present>0</present> 
+          <not_voting>8</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>235</yes> 
+          <no>1</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>239</yes> 
+          <no>182</no> 
+          <present>0</present> 
+          <not_voting>12</not_voting> 
+          <margin>57</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>137</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/137.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Pompeo of Kansas Amendment No. 545</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-19</date> 
+        <time>02:06:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>7</yes> 
+          <no>177</no> 
+          <present>0</present> 
+          <not_voting>9</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>227</yes> 
+          <no>10</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>234</yes> 
+          <no>187</no> 
+          <present>0</present> 
+          <not_voting>12</not_voting> 
+          <margin>47</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>136</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/136.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>McKinley of West Virginia Amendment No. 217</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-19</date> 
+        <time>02:03:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>19</yes> 
+          <no>165</no> 
+          <present>0</present> 
+          <not_voting>9</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>220</yes> 
+          <no>18</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>239</yes> 
+          <no>183</no> 
+          <present>0</present> 
+          <not_voting>11</not_voting> 
+          <margin>56</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>135</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/135.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>McKinley of West Virginia Amendment No. 216</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-19</date> 
+        <time>02:00:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>17</yes> 
+          <no>168</no> 
+          <present>0</present> 
+          <not_voting>8</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>223</yes> 
+          <no>14</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>240</yes> 
+          <no>182</no> 
+          <present>0</present> 
+          <not_voting>11</not_voting> 
+          <margin>58</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>134</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/134.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Sullivan of Oklahoma Amendment No. 94</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-19</date> 
+        <time>01:56:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>79</yes> 
+          <no>105</no> 
+          <present>0</present> 
+          <not_voting>9</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>206</yes> 
+          <no>31</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>285</yes> 
+          <no>136</no> 
+          <present>0</present> 
+          <not_voting>12</not_voting> 
+          <margin>149</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>133</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/133.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Issa of California Amendment No. 569</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-19</date> 
+        <time>01:53:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>1</yes> 
+          <no>184</no> 
+          <present>0</present> 
+          <not_voting>8</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>190</yes> 
+          <no>46</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>191</yes> 
+          <no>230</no> 
+          <present>0</present> 
+          <not_voting>12</not_voting> 
+          <margin>39</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>132</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/132.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Luetkemeyer of Missouri Amendment No. 149</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-19</date> 
+        <time>01:50:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>9</yes> 
+          <no>176</no> 
+          <present>0</present> 
+          <not_voting>8</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>235</yes> 
+          <no>3</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>244</yes> 
+          <no>179</no> 
+          <present>0</present> 
+          <not_voting>10</not_voting> 
+          <margin>65</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>131</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/131.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Luetkemeyer of Missouri Amendment No. 47</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-19</date> 
+        <time>01:47:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>16</yes> 
+          <no>167</no> 
+          <present>0</present> 
+          <not_voting>10</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>229</yes> 
+          <no>9</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>245</yes> 
+          <no>176</no> 
+          <present>0</present> 
+          <not_voting>12</not_voting> 
+          <margin>69</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>130</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/130.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Jones of North Carolina Amendment No. 548</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-19</date> 
+        <time>01:44:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>51</yes> 
+          <no>131</no> 
+          <present>0</present> 
+          <not_voting>11</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>208</yes> 
+          <no>28</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>259</yes> 
+          <no>159</no> 
+          <present>0</present> 
+          <not_voting>15</not_voting> 
+          <margin>100</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>129</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/129.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Griffith of Virginia Amendment No. 109</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-19</date> 
+        <time>01:41:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>8</yes> 
+          <no>175</no> 
+          <present>0</present> 
+          <not_voting>10</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>227</yes> 
+          <no>10</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>235</yes> 
+          <no>185</no> 
+          <present>0</present> 
+          <not_voting>13</not_voting> 
+          <margin>50</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>128</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/128.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Lee of California Amendment No. 141</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-19</date> 
+        <time>01:38:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>70</yes> 
+          <no>114</no> 
+          <present>0</present> 
+          <not_voting>9</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>6</yes> 
+          <no>230</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>76</yes> 
+          <no>344</no> 
+          <present>0</present> 
+          <not_voting>13</not_voting> 
+          <margin>268</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>127</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/127.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Hall of Texas Amendment No. 495</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-19</date> 
+        <time>01:35:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>6</yes> 
+          <no>178</no> 
+          <present>0</present> 
+          <not_voting>9</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>227</yes> 
+          <no>9</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>233</yes> 
+          <no>187</no> 
+          <present>0</present> 
+          <not_voting>13</not_voting> 
+          <margin>46</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>126</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/126.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Guinta of New Hampshire Amendment No. 166</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-19</date> 
+        <time>01:31:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>0</yes> 
+          <no>184</no> 
+          <present>0</present> 
+          <not_voting>9</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>210</yes> 
+          <no>26</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>210</yes> 
+          <no>210</no> 
+          <present>0</present> 
+          <not_voting>13</not_voting> 
+          <margin>0</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>125</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/125.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Flake of Arizona Amendment No. 377</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-19</date> 
+        <time>01:27:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>78</yes> 
+          <no>105</no> 
+          <present>0</present> 
+          <not_voting>10</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>183</yes> 
+          <no>53</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>261</yes> 
+          <no>158</no> 
+          <present>0</present> 
+          <not_voting>14</not_voting> 
+          <margin>103</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>124</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/124.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Stearns of Florida Amendment No. 8</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>21:59:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>16</yes> 
+          <no>170</no> 
+          <present>0</present> 
+          <not_voting>7</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>215</yes> 
+          <no>21</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>231</yes> 
+          <no>191</no> 
+          <present>0</present> 
+          <not_voting>11</not_voting> 
+          <margin>40</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>123</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/123.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Rooney of Florida Amendment No. 13</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>21:56:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>16</yes> 
+          <no>172</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>221</yes> 
+          <no>17</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>237</yes> 
+          <no>189</no> 
+          <present>0</present> 
+          <not_voting>7</not_voting> 
+          <margin>48</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>122</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/122.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Neugebauer of Texas Amendment No. 151</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>21:53:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>0</yes> 
+          <no>188</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>63</yes> 
+          <no>174</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>63</yes> 
+          <no>362</no> 
+          <present>0</present> 
+          <not_voting>8</not_voting> 
+          <margin>299</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>121</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/121.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Gardner of Colorado Amendment No. 79</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>21:50:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>5</yes> 
+          <no>183</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>236</yes> 
+          <no>1</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>241</yes> 
+          <no>184</no> 
+          <present>0</present> 
+          <not_voting>8</not_voting> 
+          <margin>57</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>120</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/120.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Goodlatte of Virginia Amendment No. 467</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>21:47:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>8</yes> 
+          <no>180</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>222</yes> 
+          <no>15</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>230</yes> 
+          <no>195</no> 
+          <present>0</present> 
+          <not_voting>8</not_voting> 
+          <margin>35</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>119</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/119.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Johnson of Ohio Amendment No. 498</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>21:44:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>11</yes> 
+          <no>177</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>228</yes> 
+          <no>9</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>239</yes> 
+          <no>186</no> 
+          <present>0</present> 
+          <not_voting>8</not_voting> 
+          <margin>53</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>118</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/118.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Polis of Colorado Amendment No. 46</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>21:41:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>69</yes> 
+          <no>119</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>5</yes> 
+          <no>232</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>74</yes> 
+          <no>351</no> 
+          <present>0</present> 
+          <not_voting>8</not_voting> 
+          <margin>277</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>117</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/117.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Kaptur of Ohio Amendment No. 333</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>21:38:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>26</yes> 
+          <no>162</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>6</yes> 
+          <no>232</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>32</yes> 
+          <no>394</no> 
+          <present>0</present> 
+          <not_voting>7</not_voting> 
+          <margin>362</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>116</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/116.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Forbes of Virginia Amendment No. 146</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>21:35:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>43</yes> 
+          <no>145</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>198</yes> 
+          <no>39</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>241</yes> 
+          <no>184</no> 
+          <present>0</present> 
+          <not_voting>8</not_voting> 
+          <margin>57</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>115</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/115.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Boren of Oklahoma Amendment No. 566</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>21:32:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>41</yes> 
+          <no>147</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>236</yes> 
+          <no>2</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>277</yes> 
+          <no>149</no> 
+          <present>0</present> 
+          <not_voting>7</not_voting> 
+          <margin>128</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>114</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/114.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Blumenauer of Oregon Amendment No. 323</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>21:29:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>134</yes> 
+          <no>54</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>51</yes> 
+          <no>187</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>185</yes> 
+          <no>241</no> 
+          <present>0</present> 
+          <not_voting>7</not_voting> 
+          <margin>56</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>113</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/113.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Herger of California Amendment No. 177</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>21:26:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>8</yes> 
+          <no>179</no> 
+          <present>0</present> 
+          <not_voting>6</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>219</yes> 
+          <no>18</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>227</yes> 
+          <no>197</no> 
+          <present>0</present> 
+          <not_voting>9</not_voting> 
+          <margin>30</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>112</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/112.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>McDermott of Washington Amendment No. 99</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>21:22:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>66</yes> 
+          <no>120</no> 
+          <present>0</present> 
+          <not_voting>7</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>25</yes> 
+          <no>213</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>91</yes> 
+          <no>333</no> 
+          <present>0</present> 
+          <not_voting>9</not_voting> 
+          <margin>242</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>111</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/111.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>McClintock of California Amendment No. 296</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>21:19:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>5</yes> 
+          <no>182</no> 
+          <present>0</present> 
+          <not_voting>6</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>210</yes> 
+          <no>28</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>215</yes> 
+          <no>210</no> 
+          <present>0</present> 
+          <not_voting>8</not_voting> 
+          <margin>5</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>110</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/110.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Price of Georgia Amendment No. 409</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>21:16:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>3</yes> 
+          <no>185</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>238</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>241</yes> 
+          <no>185</no> 
+          <present>0</present> 
+          <not_voting>7</not_voting> 
+          <margin>56</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>109</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/109.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Markey of Massachusetts Amendment No. 27</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>21:13:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>163</yes> 
+          <no>25</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>11</yes> 
+          <no>226</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>174</yes> 
+          <no>251</no> 
+          <present>0</present> 
+          <not_voting>8</not_voting> 
+          <margin>77</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>108</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/108.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Wu of Oregon Amendment No. 526</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>21:09:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>84</yes> 
+          <no>104</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>3</yes> 
+          <no>234</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>87</yes> 
+          <no>338</no> 
+          <present>0</present> 
+          <not_voting>8</not_voting> 
+          <margin>251</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>107</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/107.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Broun of Georgia Amendment No. 263</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>21:06:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>6</yes> 
+          <no>180</no> 
+          <present>0</present> 
+          <not_voting>7</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>171</yes> 
+          <no>63</no> 
+          <present>0</present> 
+          <not_voting>7</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>177</yes> 
+          <no>243</no> 
+          <present>0</present> 
+          <not_voting>13</not_voting> 
+          <margin>66</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>106</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/106.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Broun of Georgia Amendment No. 246</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>21:03:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>14</yes> 
+          <no>173</no> 
+          <present>0</present> 
+          <not_voting>6</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>60</yes> 
+          <no>175</no> 
+          <present>0</present> 
+          <not_voting>6</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>74</yes> 
+          <no>348</no> 
+          <present>0</present> 
+          <not_voting>11</not_voting> 
+          <margin>274</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>105</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/105.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Campbell of California Amendment No. 519</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>21:00:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>46</yes> 
+          <no>142</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>22</yes> 
+          <no>215</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>68</yes> 
+          <no>357</no> 
+          <present>0</present> 
+          <not_voting>8</not_voting> 
+          <margin>289</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>104</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/104.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Bishop of New York Amendment No. 414</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>20:56:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>143</yes> 
+          <no>45</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>13</yes> 
+          <no>224</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>156</yes> 
+          <no>269</no> 
+          <present>0</present> 
+          <not_voting>8</not_voting> 
+          <margin>113</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>103</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/103.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Blackburn of Tennessee Amendment No. 104</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>14:46:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>0</yes> 
+          <no>189</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>147</yes> 
+          <no>92</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>147</yes> 
+          <no>281</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <margin>134</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>102</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/102.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Kind of Wisconsin Amendment No. 88</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>14:43:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>111</yes> 
+          <no>79</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>12</yes> 
+          <no>227</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>123</yes> 
+          <no>306</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <margin>183</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>101</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/101.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Kind of Wisconsin Amendment No. 89</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>14:40:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>108</yes> 
+          <no>82</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>75</yes> 
+          <no>164</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>183</yes> 
+          <no>246</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <margin>63</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>100</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/100.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Emerson of Missouri Amendment No. 83</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>14:35:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>8</yes> 
+          <no>182</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>238</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>246</yes> 
+          <no>182</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <margin>64</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>99</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/99.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>King of Iowa Amendment No. 268</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>14:32:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>3</yes> 
+          <no>187</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>234</yes> 
+          <no>4</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>237</yes> 
+          <no>191</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <margin>46</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>98</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/98.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>King of Iowa Amendment No. 267</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>14:29:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>3</yes> 
+          <no>187</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>238</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>241</yes> 
+          <no>187</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <margin>54</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>97</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/97.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Rehberg of Montana Amendment No. 575</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>14:26:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>3</yes> 
+          <no>185</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>236</yes> 
+          <no>2</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>239</yes> 
+          <no>187</no> 
+          <present>0</present> 
+          <not_voting>7</not_voting> 
+          <margin>52</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>96</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/96.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Poe of Texas Amendment No. 466</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>14:23:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>13</yes> 
+          <no>175</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>236</yes> 
+          <no>2</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>249</yes> 
+          <no>177</no> 
+          <present>0</present> 
+          <not_voting>7</not_voting> 
+          <margin>72</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>95</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/95.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Nadler of New York Amendment No. 524</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>14:20:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>164</yes> 
+          <no>25</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>32</yes> 
+          <no>206</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>196</yes> 
+          <no>231</no> 
+          <present>0</present> 
+          <not_voting>6</not_voting> 
+          <margin>35</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>94</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/94.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Young of Alaska Amendment No. 533</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>14:17:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>13</yes> 
+          <no>176</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>230</yes> 
+          <no>9</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>243</yes> 
+          <no>185</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <margin>58</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>93</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/93.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Pence of Indiana Amendment No. 11</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>14:13:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>10</yes> 
+          <no>178</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>230</yes> 
+          <no>7</no> 
+          <present>1</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>240</yes> 
+          <no>185</no> 
+          <present>1</present> 
+          <not_voting>7</not_voting> 
+          <margin>55</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>92</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/92.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Kline of Minnesota Amendment No. 214</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>14:10:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>58</yes> 
+          <no>132</no> 
+          <present>1</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>231</yes> 
+          <no>4</no> 
+          <present>0</present> 
+          <not_voting>6</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>289</yes> 
+          <no>136</no> 
+          <present>1</present> 
+          <not_voting>7</not_voting> 
+          <margin>153</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>91</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/91.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Nadler of New York Amendment No. 232</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>14:07:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>91</yes> 
+          <no>99</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>7</yes> 
+          <no>232</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>98</yes> 
+          <no>331</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <margin>233</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>90</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/90.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>McCollum of Minnesota Amendment No. 50</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-18</date> 
+        <time>13:58:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>118</yes> 
+          <no>72</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>30</yes> 
+          <no>209</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>148</yes> 
+          <no>281</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <margin>133</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>89</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/89.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Holt of New Jersey Amendment No. 506</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-17</date> 
+        <time>19:07:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>161</yes> 
+          <no>30</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>2</yes> 
+          <no>235</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>163</yes> 
+          <no>265</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <margin>102</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>88</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/88.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Frank of Massachusetts Amendment No. 458</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-17</date> 
+        <time>19:04:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>154</yes> 
+          <no>37</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>6</yes> 
+          <no>233</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>160</yes> 
+          <no>270</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <margin>110</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>87</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/87.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Scalise of Louisiana Amendment No. 204</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-17</date> 
+        <time>19:01:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>13</yes> 
+          <no>178</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>236</yes> 
+          <no>1</no> 
+          <present>1</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>249</yes> 
+          <no>179</no> 
+          <present>1</present> 
+          <not_voting>4</not_voting> 
+          <margin>70</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>86</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/86.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Carter of Texas Amendment No. 165</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-17</date> 
+        <time>18:57:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>19</yes> 
+          <no>170</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>231</yes> 
+          <no>7</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>250</yes> 
+          <no>177</no> 
+          <present>0</present> 
+          <not_voting>6</not_voting> 
+          <margin>73</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>85</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/85.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Lummis of Wyoming Amendment No. 195</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-17</date> 
+        <time>18:54:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>5</yes> 
+          <no>185</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>227</yes> 
+          <no>12</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>232</yes> 
+          <no>197</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <margin>35</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>84</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/84.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Camp of Michigan Amendment No. 516</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-17</date> 
+        <time>18:51:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>48</yes> 
+          <no>143</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>89</yes> 
+          <no>149</no> 
+          <present>1</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>137</yes> 
+          <no>292</no> 
+          <present>1</present> 
+          <not_voting>3</not_voting> 
+          <margin>155</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>83</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/83.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Walden of Oregon Amendment No. 404</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-17</date> 
+        <time>18:45:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>10</yes> 
+          <no>177</no> 
+          <present>0</present> 
+          <not_voting>6</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>234</yes> 
+          <no>4</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>244</yes> 
+          <no>181</no> 
+          <present>0</present> 
+          <not_voting>8</not_voting> 
+          <margin>63</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>82</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/82.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Price of North Carolina Amendment No. 514</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-17</date> 
+        <time>18:42:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>188</yes> 
+          <no>3</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>79</yes> 
+          <no>156</no> 
+          <present>1</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>267</yes> 
+          <no>159</no> 
+          <present>1</present> 
+          <not_voting>6</not_voting> 
+          <margin>108</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>81</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/81.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Cole of Oklahoma Amendment No. 208</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-17</date> 
+        <time>18:38:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>13</yes> 
+          <no>174</no> 
+          <present>0</present> 
+          <not_voting>6</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>234</yes> 
+          <no>1</no> 
+          <present>0</present> 
+          <not_voting>6</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>247</yes> 
+          <no>175</no> 
+          <present>0</present> 
+          <not_voting>11</not_voting> 
+          <margin>72</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>80</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/80.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Woolsey of California Amendment No. 189</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-17</date> 
+        <time>18:35:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>85</yes> 
+          <no>105</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>6</yes> 
+          <no>234</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>91</yes> 
+          <no>339</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <margin>248</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>79</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/79.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Sessions of Texas Amendment No. 43</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-17</date> 
+        <time>11:14:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>0</yes> 
+          <no>190</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>176</yes> 
+          <no>60</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>176</yes> 
+          <no>250</no> 
+          <present>0</present> 
+          <not_voting>7</not_voting> 
+          <margin>74</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>78</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/78.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Heller of Nevada Amendment No. 29</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-17</date> 
+        <time>11:11:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>10</yes> 
+          <no>182</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>180</yes> 
+          <no>59</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>190</yes> 
+          <no>241</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <margin>51</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>77</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/77.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Canseco of Texas Amendment No. 248</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-17</date> 
+        <time>11:07:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>44</yes> 
+          <no>148</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>230</yes> 
+          <no>7</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>274</yes> 
+          <no>155</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <margin>119</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>76</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/76.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Weiner of New York Amendment No. 100</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-17</date> 
+        <time>11:04:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>42</yes> 
+          <no>150</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>226</yes> 
+          <no>13</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>268</yes> 
+          <no>163</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <margin>105</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>75</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/75.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Price of Georgia Amendment No. 410</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-17</date> 
+        <time>11:00:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>0</yes> 
+          <no>190</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>176</yes> 
+          <no>60</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>176</yes> 
+          <no>250</no> 
+          <present>0</present> 
+          <not_voting>7</not_voting> 
+          <margin>74</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>74</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/74.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Young of Alaska Amendment No. 532</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-17</date> 
+        <time>10:57:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>172</yes> 
+          <no>20</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>141</yes> 
+          <no>97</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>313</yes> 
+          <no>117</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <margin>196</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>73</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/73.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>McMorris Rodgers of Washington Amendment No. 276</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-17</date> 
+        <time>10:54:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>17</yes> 
+          <no>174</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>232</yes> 
+          <no>5</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>249</yes> 
+          <no>179</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <margin>70</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>72</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/72.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Flake of Arizona Amendment No. 457</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-17</date> 
+        <time>10:50:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>0</yes> 
+          <no>192</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>115</yes> 
+          <no>124</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>115</yes> 
+          <no>316</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <margin>201</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>71</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/71.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Bass of New Hampshire Amendment No. 565</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-17</date> 
+        <time>10:47:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>18</yes> 
+          <no>172</no> 
+          <present>1</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>86</yes> 
+          <no>150</no> 
+          <present>1</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>104</yes> 
+          <no>322</no> 
+          <present>2</present> 
+          <not_voting>5</not_voting> 
+          <margin>218</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>70</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/70.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Reed of New York Amendment No. 381</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-17</date> 
+        <time>10:44:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>15</yes> 
+          <no>176</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>224</yes> 
+          <no>10</no> 
+          <present>0</present> 
+          <not_voting>7</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>239</yes> 
+          <no>186</no> 
+          <present>0</present> 
+          <not_voting>8</not_voting> 
+          <margin>53</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>69</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/69.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Canseco of Texas Amendment No. 249</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-17</date> 
+        <time>10:41:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>25</yes> 
+          <no>164</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>223</yes> 
+          <no>13</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>248</yes> 
+          <no>177</no> 
+          <present>0</present> 
+          <not_voting>8</not_voting> 
+          <margin>71</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>68</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/68.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Walberg of Michigan Amendment No. 196</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-17</date> 
+        <time>10:37:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>3</yes> 
+          <no>187</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>214</yes> 
+          <no>22</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>217</yes> 
+          <no>209</no> 
+          <present>0</present> 
+          <not_voting>7</not_voting> 
+          <margin>8</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>67</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/67.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Pompeo of Kansas Amendment No. 85</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-17</date> 
+        <time>10:30:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>3</yes> 
+          <no>186</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>168</yes> 
+          <no>70</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>171</yes> 
+          <no>256</no> 
+          <present>0</present> 
+          <not_voting>6</not_voting> 
+          <margin>85</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>66</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/66.xml</vote_uri> 
+        <bill_number>H R 514</bill_number> 
+        <question>On Motion to Concur in the Senate Amendment</question> 
+        <description>To extend expiring provisions of the USA PATRIOT Improvement and Reauthorization Act of 2005 and Intelligence Reform and Terrorism Prevention Act of 2004 relating to access to business records, individual terrorists as agents of foreign powers, and roving wiretaps until December 8, 2011</description> 
+        <vote_type>YEA-AND-NAY</vote_type> 
+        <date>2011-02-17</date> 
+        <time>10:10:00</time> 
+        <result>Passed</result> 
+        <democratic> 
+          <yes>68</yes> 
+          <no>117</no> 
+          <present>0</present> 
+          <not_voting>8</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>211</yes> 
+          <no>26</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>279</yes> 
+          <no>143</no> 
+          <present>0</present> 
+          <not_voting>11</not_voting> 
+          <margin>136</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>65</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/65.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Reed of New York Amendment No. 379</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-16</date> 
+        <time>19:19:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>9</yes> 
+          <no>182</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>219</yes> 
+          <no>21</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>228</yes> 
+          <no>203</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <margin>25</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>64</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/64.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Pompeo of Kansas Amendment No. 84</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-16</date> 
+        <time>19:14:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>11</yes> 
+          <no>176</no> 
+          <present>0</present> 
+          <not_voting>6</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>228</yes> 
+          <no>9</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>239</yes> 
+          <no>185</no> 
+          <present>0</present> 
+          <not_voting>9</not_voting> 
+          <margin>54</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>63</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/63.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Flake of Arizona Amendment No. 376</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-16</date> 
+        <time>19:11:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>9</yes> 
+          <no>182</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>190</yes> 
+          <no>48</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>199</yes> 
+          <no>230</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <margin>31</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>62</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/62.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Moran of Virginia Amendment No. 338</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-16</date> 
+        <time>19:06:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>57</yes> 
+          <no>132</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>16</yes> 
+          <no>220</no> 
+          <present>2</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>73</yes> 
+          <no>352</no> 
+          <present>2</present> 
+          <not_voting>6</not_voting> 
+          <margin>279</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>61</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/61.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Lummis of Wyoming Amendment No. 193</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-16</date> 
+        <time>19:02:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>6</yes> 
+          <no>184</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>207</yes> 
+          <no>32</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>213</yes> 
+          <no>216</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <margin>3</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>60</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/60.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Pascrell of New Jersey Amendment No. 223</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-16</date> 
+        <time>14:42:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>186</yes> 
+          <no>6</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>132</yes> 
+          <no>107</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>318</yes> 
+          <no>113</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <margin>205</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>59</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/59.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Defazio of Oregon Amendment No. 98</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-16</date> 
+        <time>14:38:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>86</yes> 
+          <no>105</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>44</yes> 
+          <no>196</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>130</yes> 
+          <no>301</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <margin>171</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>58</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/58.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Latta of Ohio Amendment No. 259</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-16</date> 
+        <time>14:34:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>2</yes> 
+          <no>190</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>135</yes> 
+          <no>103</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>137</yes> 
+          <no>293</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <margin>156</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>57</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/57.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Tonko of New York Amendment No. 4</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-16</date> 
+        <time>14:31:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>185</yes> 
+          <no>6</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>23</yes> 
+          <no>217</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>208</yes> 
+          <no>223</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <margin>15</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>56</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/56.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Inslee of Washington Amendment No. 395</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-16</date> 
+        <time>14:28:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>146</yes> 
+          <no>46</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>13</yes> 
+          <no>227</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>159</yes> 
+          <no>273</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <margin>114</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>55</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/55.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Biggert of Illinois Amendment No. 192</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-16</date> 
+        <time>14:24:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>5</yes> 
+          <no>187</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>165</yes> 
+          <no>75</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>170</yes> 
+          <no>262</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <margin>92</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>54</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/54.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Duncan of South Carolina Amendment No. 110</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-16</date> 
+        <time>14:22:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>1</yes> 
+          <no>191</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>170</yes> 
+          <no>68</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>171</yes> 
+          <no>259</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <margin>88</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>53</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/53.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Weiner of New York Amendment No. 125, as Modified</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-16</date> 
+        <time>14:18:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>158</yes> 
+          <no>34</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>70</yes> 
+          <no>169</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>228</yes> 
+          <no>203</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <margin>25</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>52</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/52.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Latta of Ohio Amendment No. 260</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-16</date> 
+        <time>14:13:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>27</yes> 
+          <no>165</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>157</yes> 
+          <no>82</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>184</yes> 
+          <no>247</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <margin>63</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>51</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/51.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Flake of Arizona Amendment No. 368</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-16</date> 
+        <time>14:10:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>45</yes> 
+          <no>147</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>217</yes> 
+          <no>22</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>262</yes> 
+          <no>169</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <margin>93</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>50</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/50.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Michaud of Maine Amendment No. 153</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-16</date> 
+        <time>14:07:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>160</yes> 
+          <no>32</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>145</yes> 
+          <no>95</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>305</yes> 
+          <no>127</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <margin>178</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>49</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/49.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>DeFazio of Oregon Amendment No. 97</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-16</date> 
+        <time>14:02:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>127</yes> 
+          <no>65</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>9</yes> 
+          <no>231</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>136</yes> 
+          <no>296</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <margin>160</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>48</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/48.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Holt of New Jersey Amendment No. 237</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-16</date> 
+        <time>13:58:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>117</yes> 
+          <no>75</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>16</yes> 
+          <no>224</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>133</yes> 
+          <no>299</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <margin>166</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>47</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/47.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Jones of North Carolina Amendment No. 95</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-16</date> 
+        <time>13:53:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>99</yes> 
+          <no>92</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>36</yes> 
+          <no>202</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>135</yes> 
+          <no>294</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <margin>159</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>46</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/46.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Rooney of Florida Amendment No. 2</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-16</date> 
+        <time>13:49:00</time> 
+        <result>Agreed to</result> 
+        <democratic> 
+          <yes>123</yes> 
+          <no>68</no> 
+          <present>1</present> 
+          <not_voting>1</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>110</yes> 
+          <no>130</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>233</yes> 
+          <no>198</no> 
+          <present>1</present> 
+          <not_voting>1</not_voting> 
+          <margin>35</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>45</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/45.xml</vote_uri> 
+        <bill_number>H RES 93</bill_number> 
+        <question>On Agreeing to the Resolution</question> 
+        <description>Providing for consideration of the Senate amendment to the bill (H.R. 514) to extend expiring provisions of the USA PATRIOT Improvement and Reauthorization Act of 2005 and Intelligence Reform and Terrorism Prevention Act of 2004</description> 
+        <vote_type>YEA-AND-NAY</vote_type> 
+        <date>2011-02-16</date> 
+        <time>13:29:00</time> 
+        <result>Passed</result> 
+        <democratic> 
+          <yes>18</yes> 
+          <no>172</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>236</yes> 
+          <no>4</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>254</yes> 
+          <no>176</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <margin>78</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>44</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/44.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Pompeo of Kansas Amendment No. 86</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-15</date> 
+        <time>19:24:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>5</yes> 
+          <no>185</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>104</yes> 
+          <no>135</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>109</yes> 
+          <no>320</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <margin>211</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>43</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/43.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Gutierrez of Illinois Amendment No. 63</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-15</date> 
+        <time>19:18:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>88</yes> 
+          <no>103</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>17</yes> 
+          <no>223</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>105</yes> 
+          <no>326</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <margin>221</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>42</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/42.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Pompeo of Kansas Amendment No. 87</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-15</date> 
+        <time>19:13:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>1</yes> 
+          <no>189</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>71</yes> 
+          <no>169</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>72</yes> 
+          <no>358</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <margin>286</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>41</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/41.xml</vote_uri> 
+        <bill_number>H R 1</bill_number> 
+        <question>On Agreeing to the Amendment</question> 
+        <description>Flake of Arizona Amendment No. 370</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-15</date> 
+        <time>19:08:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>115</yes> 
+          <no>75</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>92</yes> 
+          <no>148</no> 
+          <present>0</present> 
+          <not_voting>1</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>207</yes> 
+          <no>223</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <margin>16</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>40</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/40.xml</vote_uri> 
+        <bill_number>H CON RES 17</bill_number> 
+        <question>On Agreeing to the Resolution</question> 
+        <description>Adjournment Resolution</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-15</date> 
+        <time>14:13:00</time> 
+        <result>Passed</result> 
+        <democratic> 
+          <yes>8</yes> 
+          <no>173</no> 
+          <present>0</present> 
+          <not_voting>12</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>235</yes> 
+          <no>3</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>243</yes> 
+          <no>176</no> 
+          <present>0</present> 
+          <not_voting>14</not_voting> 
+          <margin>67</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>39</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/39.xml</vote_uri> 
+        <bill_number>H RES 92</bill_number> 
+        <question>On Agreeing to the Resolution</question> 
+        <description>Providing for consideration of H.R. 1, making appropriations for the Department of Defense and other departments and agencies of the Government for the fiscal year ending September 30, 2011, and for other purposes</description> 
+        <vote_type>YEA-AND-NAY</vote_type> 
+        <date>2011-02-15</date> 
+        <time>14:06:00</time> 
+        <result>Passed</result> 
+        <democratic> 
+          <yes>8</yes> 
+          <no>174</no> 
+          <present>0</present> 
+          <not_voting>11</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>234</yes> 
+          <no>0</no> 
+          <present>2</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>242</yes> 
+          <no>174</no> 
+          <present>2</present> 
+          <not_voting>15</not_voting> 
+          <margin>68</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>38</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/38.xml</vote_uri> 
+        <bill_number>H RES 92</bill_number> 
+        <question>On Ordering the Previous Question</question> 
+        <description>Providing for consideration of H.R. 1, making appropriations for the Department of Defense and other departments and agencies of the Government for the fiscal year ending September 30, 2011, and for other purposes</description> 
+        <vote_type>YEA-AND-NAY</vote_type> 
+        <date>2011-02-15</date> 
+        <time>13:55:00</time> 
+        <result>Passed</result> 
+        <democratic> 
+          <yes>2</yes> 
+          <no>179</no> 
+          <present>0</present> 
+          <not_voting>12</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>238</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>240</yes> 
+          <no>179</no> 
+          <present>0</present> 
+          <not_voting>14</not_voting> 
+          <margin>61</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>37</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/37.xml</vote_uri> 
+        <bill_number>JOURNAL</bill_number> 
+        <question>On Approving the Journal</question> 
+        <description></description> 
+        <vote_type>YEA-AND-NAY</vote_type> 
+        <date>2011-02-14</date> 
+        <time>19:10:00</time> 
+        <result>Passed</result> 
+        <democratic> 
+          <yes>132</yes> 
+          <no>49</no> 
+          <present>0</present> 
+          <not_voting>12</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>220</yes> 
+          <no>10</no> 
+          <present>3</present> 
+          <not_voting>8</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>352</yes> 
+          <no>59</no> 
+          <present>3</present> 
+          <not_voting>19</not_voting> 
+          <margin>293</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>36</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/36.xml</vote_uri> 
+        <bill_number>H R 514</bill_number> 
+        <question>On Passage</question> 
+        <description>To extend expiring provisions of the USA PATRIOT Improvement and Reauthorization Act of 2005 and Intelligence Reform and Terrorism Prevention Act of 2004 relating to access to business records, individual terrorists as agents of foreign powers, and roving wiretaps until December 8, 2011</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-14</date> 
+        <time>19:03:00</time> 
+        <result>Passed</result> 
+        <democratic> 
+          <yes>65</yes> 
+          <no>117</no> 
+          <present>0</present> 
+          <not_voting>11</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>210</yes> 
+          <no>27</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>275</yes> 
+          <no>144</no> 
+          <present>0</present> 
+          <not_voting>14</not_voting> 
+          <margin>131</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>35</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/35.xml</vote_uri> 
+        <bill_number>H R 514</bill_number> 
+        <question>On Motion to Recommit with Instructions</question> 
+        <description>To extend expiring provisions of the USA PATRIOT Improvement and Reauthorization Act of 2005 and Intelligence Reform and Terrorism Prevention Act of 2004 relating to access to business records, individual terrorists as agents of foreign powers, and roving wiretaps until December 8, 2011</description> 
+        <vote_type>YEA-AND-NAY</vote_type> 
+        <date>2011-02-14</date> 
+        <time>18:55:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>184</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>9</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>2</yes> 
+          <no>234</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>186</yes> 
+          <no>234</no> 
+          <present>0</present> 
+          <not_voting>13</not_voting> 
+          <margin>48</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>34</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/34.xml</vote_uri> 
+        <bill_number>JOURNAL</bill_number> 
+        <question>On Approving the Journal</question> 
+        <description></description> 
+        <vote_type>YEA-AND-NAY</vote_type> 
+        <date>2011-02-11</date> 
+        <time>13:58:00</time> 
+        <result>Passed</result> 
+        <democratic> 
+          <yes>119</yes> 
+          <no>46</no> 
+          <present>0</present> 
+          <not_voting>28</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>225</yes> 
+          <no>4</no> 
+          <present>1</present> 
+          <not_voting>11</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>344</yes> 
+          <no>50</no> 
+          <present>1</present> 
+          <not_voting>38</not_voting> 
+          <margin>294</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>33</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/33.xml</vote_uri> 
+        <bill_number>H RES 72</bill_number> 
+        <question>On Agreeing to the Resolution</question> 
+        <description>Directing certain standing committees to inventory and review existing, pending, and proposed regulations and orders from agencies of the Federal Government, particularly with respect to their effect on jobs and economic growth</description> 
+        <vote_type>RECORDED VOTE</vote_type> 
+        <date>2011-02-11</date> 
+        <time>13:51:00</time> 
+        <result>Passed</result> 
+        <democratic> 
+          <yes>153</yes> 
+          <no>28</no> 
+          <present>0</present> 
+          <not_voting>12</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>238</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>391</yes> 
+          <no>28</no> 
+          <present>0</present> 
+          <not_voting>14</not_voting> 
+          <margin>363</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>32</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/32.xml</vote_uri> 
+        <bill_number>H RES 72</bill_number> 
+        <question>On Motion to Recommit with Instructions</question> 
+        <description>Directing certain standing committees to inventory and review existing, pending, and proposed regulations and orders from agencies of the Federal Government, particularly with respect to their effect on jobs and economic growth</description> 
+        <vote_type>YEA-AND-NAY</vote_type> 
+        <date>2011-02-11</date> 
+        <time>13:34:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>178</yes> 
+          <no>3</no> 
+          <present>0</present> 
+          <not_voting>12</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>0</yes> 
+          <no>239</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>No</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>178</yes> 
+          <no>242</no> 
+          <present>0</present> 
+          <not_voting>13</not_voting> 
+          <margin>64</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>31</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/31.xml</vote_uri> 
+        <bill_number>H RES 73</bill_number> 
+        <question>On Agreeing to the Resolution</question> 
+        <description>Providing for consideration of H. Res. 72, directing certain standing committees to inventory and review existing, pending, and proposed regulations and orders from agencies of the Federal Government, particularly with respect to their effect on jobs and economic growth</description> 
+        <vote_type>YEA-AND-NAY</vote_type> 
+        <date>2011-02-10</date> 
+        <time>15:27:00</time> 
+        <result>Passed</result> 
+        <democratic> 
+          <yes>18</yes> 
+          <no>169</no> 
+          <present>0</present> 
+          <not_voting>6</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>237</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>255</yes> 
+          <no>169</no> 
+          <present>0</present> 
+          <not_voting>9</not_voting> 
+          <margin>86</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>30</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/30.xml</vote_uri> 
+        <bill_number>H RES 73</bill_number> 
+        <question>On Ordering the Previous Question</question> 
+        <description>Providing for consideration of H. Res. 72, directing certain standing committees to inventory and review existing, pending, and proposed regulations and orders from agencies of the Federal Government, particularly with respect to their effect on jobs and economic growth</description> 
+        <vote_type>YEA-AND-NAY</vote_type> 
+        <date>2011-02-10</date> 
+        <time>15:19:00</time> 
+        <result>Passed</result> 
+        <democratic> 
+          <yes>6</yes> 
+          <no>180</no> 
+          <present>0</present> 
+          <not_voting>7</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>234</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>7</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>240</yes> 
+          <no>180</no> 
+          <present>0</present> 
+          <not_voting>13</not_voting> 
+          <margin>60</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>29</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/29.xml</vote_uri> 
+        <bill_number>H RES 79</bill_number> 
+        <question>On Agreeing to the Resolution</question> 
+        <description>Providing for consideration of H.R. 514, to extend expiring provisions of the USA PATRIOT Improvement and Reauthorization Act of 2005 and Intelligence Reform and Terrorism Prevention Act of 2004</description> 
+        <vote_type>YEA-AND-NAY</vote_type> 
+        <date>2011-02-10</date> 
+        <time>15:11:00</time> 
+        <result>Passed</result> 
+        <democratic> 
+          <yes>15</yes> 
+          <no>172</no> 
+          <present>0</present> 
+          <not_voting>6</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>233</yes> 
+          <no>4</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>248</yes> 
+          <no>176</no> 
+          <present>0</present> 
+          <not_voting>9</not_voting> 
+          <margin>72</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>28</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/28.xml</vote_uri> 
+        <bill_number>H R 519</bill_number> 
+        <question>On Motion to Suspend the Rules and Pass</question> 
+        <description>United Nations Tax Equalization Refund Act</description> 
+        <vote_type>2/3 YEA-AND-NAY</vote_type> 
+        <date>2011-02-09</date> 
+        <time>14:04:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>23</yes> 
+          <no>167</no> 
+          <present>0</present> 
+          <not_voting>3</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>236</yes> 
+          <no>2</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>259</yes> 
+          <no>169</no> 
+          <present>0</present> 
+          <not_voting>6</not_voting> 
+          <margin>90</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>27</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/27.xml</vote_uri> 
+        <bill_number>S 188</bill_number> 
+        <question>On Motion to Suspend the Rules and Pass</question> 
+        <description>To designate the United States courthouse under construction at 98 West First Street, Yuma, Arizona, as the “John M. Roll United States Courthouse”</description> 
+        <vote_type>2/3 YEA-AND-NAY</vote_type> 
+        <date>2011-02-09</date> 
+        <time>13:55:00</time> 
+        <result>Passed</result> 
+        <democratic> 
+          <yes>191</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>2</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>238</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>429</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>5</not_voting> 
+          <margin>429</margin> 
+        </total> 
+      </vote> 
+          <vote> 
+        <congress>112</congress> 
+        <session>1</session> 
+        <roll_call>26</roll_call> 
+        <vote_uri>http://api.nytimes.com/svc/politics/v3/us/legislative/congress/112/house/sessions/1/votes/26.xml</vote_uri> 
+        <bill_number>H R 514</bill_number> 
+        <question>On Motion to Suspend the Rules and Pass</question> 
+        <description>To extend expiring provisions of the USA PATRIOT Improvement and Reauthorization Act of 2005 and Intelligence Reform and Terrorism Prevention Act of 2004 relating to access to business records, individual terrorists as agents of foreign powers, and roving wiretaps until December 8, 2011</description> 
+        <vote_type>2/3 YEA-AND-NAY</vote_type> 
+        <date>2011-02-08</date> 
+        <time>19:04:00</time> 
+        <result>Failed</result> 
+        <democratic> 
+          <yes>67</yes> 
+          <no>122</no> 
+          <present>0</present> 
+          <not_voting>4</not_voting> 
+          <majority_position>No</majority_position> 
+        </democratic> 
+        <republican> 
+          <yes>210</yes> 
+          <no>26</no> 
+          <present>0</present> 
+          <not_voting>6</not_voting> 
+          <majority_position>Yes</majority_position> 
+        </republican> 
+        <independent> 
+          <yes>0</yes> 
+          <no>0</no> 
+          <present>0</present> 
+          <not_voting>0</not_voting> 
+        </independent> 
+        <total> 
+          <yes>277</yes> 
+          <no>148</no> 
+          <present>0</present> 
+          <not_voting>9</not_voting> 
+          <margin>129</margin> 
+        </total> 
+      </vote> 
+        </votes> 
+  </results> 
+</result_set>
