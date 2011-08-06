@@ -7,8 +7,7 @@ public class WRVoteData {
 	public static final int DEMOCRAT = 2;
 	public static final int REPUBLICAN = 3;
 	
-	public static String API_KEY;
-	
+	private String api_key;
 	
 	public ArrayList senate_votes;
 	public ArrayList house_votes;
@@ -19,7 +18,7 @@ public class WRVoteData {
 	
 	
 	public WRVoteData(XMLElement house_xml, XMLElement senate_xml, String api_key ) {
-		WRVoteData.API_KEY = api_key;
+		this.api_key = api_key;
 		this.senate_votes = getWRVoteArrayList(senate_xml, WRVoteData.SENATE);
 		this.house_votes = getWRVoteArrayList(house_xml, WRVoteData.HOUSE);
 		
@@ -35,7 +34,7 @@ public class WRVoteData {
 		ArrayList al = new ArrayList();	
 		
 		for(int i=0; i<vote_elements.length; i++) {
-			WRVote vote = new WRVote(vote_elements[i], chamber);
+			WRVote vote = new WRVote(vote_elements[i], chamber, this.api_key);
 			al.add(vote);
 		}
 
@@ -67,25 +66,28 @@ public class WRApiObject {
 		this.obj_xml_element = isolateObjectXml(this.obj_uri_response);
 	}
 	
-	public String get(Stirng element_name) { this.getChildElement(element_name); }
+	public String get(String element_name) { 
+		return this.getChildElement(element_name);
+	}
+	
 	public String getChildElement(String element_name) {
-		return obj_xml_element.getChildElement(element_name);
+		return obj_xml_element.getChild(element_name).getContent();
 	}
 	
 	// this will need to be overridden
 	private XMLElement isolateObjectXml(XMLElement xmlResponse) {
-		return xmlResponse.getChild('results');
+		return xmlResponse.getChild("results");
 	}
 	
 	private XMLElement apiCall() {
 		String path = this.obj_uri + "&api-key=" + this.api_key;
-		XMLElement xmlResponse = new XMLElement(xmlResponse);
+		XMLElement xmlResponse = new XMLElement(loadUri(path));
 		return xmlResponse;
 	}
 	
 	private String loadUri(String path) {
 		String lines[] = loadStrings(path);
-		if(lines == null) { prinln "API read error: "+path; return null; }
+		if(lines == null) { println("API read error: "+path); return null; }
 		String response = join(lines, "\n");
 		
 		return response;
@@ -105,7 +107,7 @@ public class WRMember extends WRApiObject {
 		super(member_uri, api_key);
 	} 
 	private XMLElement isolateObjectXml(XMLElement xmlResponse) {
-		return xmlResponse.getChild('results/member');
+		return xmlResponse.getChild("results/member");
 	}
 }
 
@@ -122,24 +124,7 @@ public class WRBill extends WRApiObject {
 		super(member_uri, api_key);
 	}
 	
-	public WRBill(String bill_id, int congress, String api_key) {
-		super(getEndpoint(bill_id, congress), api_key);
-	}
-	
-	private getEndpoint(String bill_id, int congress) {
-		String uri = "http://api.nytimes.com/svc/politics/v3/us/legislative/congress/"+ congress+"/bills/" + WRBill.cleanBillNumber(bill_id) + ".xml?api-key=" + api-key;
-		return uri;
-	}
-	
-	public static String cleanBillNumber(String bill_number) {
-		String clean_bill_number = bill_number;
-		String[] rm_chars = { ' ','.'	}
-		for(int i=1; i<rm_chars.length; i++) {
-			String[] split = split(clean_bill_number, rm_chars[i]);
-			clean_bill_number = join(split);
-		}
-		return clean_bill_number;
-	}}
+}
 
 
 /**
@@ -151,6 +136,8 @@ public class WRBill extends WRApiObject {
  */
 public class WRVote {
 	
+	private String api_key;
+	
 	public WRBill bill;
 	public int chamber;
 	public Date date;
@@ -161,8 +148,10 @@ public class WRVote {
 	public String description;
 	public int party_affiliation;
 		
-	public WRVote(XMLElement vote_xml, int chamber) {
-		this.bill = new WRBill(this.bill_number, this.congress, WRVoteData.API_KEY);
+	public WRVote(XMLElement vote_xml, int chamber, String api_key) {
+		
+		this.api_key = api_key;
+		
 		this.date = this.formatDate(vote_xml);
 		this.chamber = chamber;
 		this.congress = Integer.parseInt(vote_xml.getChild("congress").getContent());
@@ -171,6 +160,10 @@ public class WRVote {
 		this.result = vote_xml.getChild("result").getContent();
 		this.description = vote_xml.getChild("description").getContent();
 		this.party_affiliation = this.getPartyAffiliation(vote_xml);
+		
+		// get the bill
+		String bill_uri = this.buildBillUri(this.congress, this.bill_number, api_key);
+		this.bill = new WRBill( bill_uri, this.api_key);
 	}
 
 
@@ -179,6 +172,21 @@ public class WRVote {
 		println(bill.get("title"));
 		
 		return WRVoteData.DEMOCRAT;
+	}
+	
+	public String buildBillUri(int congress, String bill_id, String api_key) {
+		String uri = "http://api.nytimes.com/svc/politics/v3/us/legislative/congress/"+ congress+"/bills/" + this.cleanBillNumber(bill_id) + ".xml?api-key=" + api_key;
+		return uri;
+	}
+	
+	public String cleanBillNumber(String bill_number) {
+		String clean_bill_number = bill_number;
+		char[] rm_chars = { ' ','.'	};
+		for(int i=1; i<rm_chars.length; i++) {
+			String[] splitted = split(clean_bill_number, rm_chars[i]);
+			clean_bill_number = join(splitted, "");
+		}
+		return clean_bill_number;
 	}
 	
 
