@@ -9,6 +9,7 @@ TODO
 * <del>Print test data</del>
 * <del>Filter test data for pass/agreed to votes</del>
 * <del>merge house/senate datasets</del>
+* sort by date
 * map out dates for timing
 * pull bill data to test for sponsorship
 * scorekeeping
