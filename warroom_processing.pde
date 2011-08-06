@@ -2,44 +2,46 @@
 
 import java.text.SimpleDateFormat;
 
-XMLElement[] votes;
+WRVoteData vote_data;
 String HOUSE_TEST_DATA_PATH = "xml/house_2011-02.xml";
 String SENATE_TEST_DATA_PATH = "xml/senate_2011-02.xml";
-
-int d_score;
-int r_score;
+String API_KEY = "d79e05d7ab36d22f0b1ff14d30c48ae3:10:40476694";
 
 
 void setup() {
 	size(1024, 768);
 	XMLElement house = new XMLElement(this, HOUSE_TEST_DATA_PATH);
 	XMLElement senate = new XMLElement(this, SENATE_TEST_DATA_PATH);
-	XMLElement[] house_votes = grabVotes(house);	
-	XMLElement[] senate_votes = grabVotes(senate);
+	/*XMLElement[] house_votes = grabVotes(house);	*/
+	/*XMLElement[] senate_votes = grabVotes(senate);*/
 	// merge house and senate votes, then merge by date/time
-	XMLElement[] votes = mergeArrays(house_votes, senate_votes);
+	/*XMLElement[] votes = mergeArrays(house_votes, senate_votes);*/
 	/*votes = sortByDate(votes);*/
 	/*println(votes.length);*/
 	
+	vote_data = new WRVoteData(house, senate, API_KEY);
+	
+	votes = vote_data.votes;
+	
 	// print house votes
 	for(int i=0; i < votes.length; i++) {
-		String result = votes[i].getChild("result").getContent();
+		String result = votes.get(i).result;
 		// Make sure the vote didn't fail ( alternatives are "Passed" for bill and "Agreed to" for amendments)
 		if(!result.equals("Failed")) {
-			println(votes[i].getChild("description").getContent());			
+			println(votes.get(i).description;
 		}
 	}
 	
 }
 
 // grab votes from the root xmnl node
-XMLElement[] grabVotes(XMLElement xml) {
+/*XMLElement[] grabVotes(XMLElement xml) {
 	String path = "results/votes/vote";
 	return xml.getChildren(path);
-}
+}*/
 
 // sort merged votes
-XMLElement[] sortByDate(XMLElement[] v) {
+/*XMLElement[] sortByDate(XMLElement[] v) {
 	XMLElement[] sorted = new XMLElement[0];
 	for(int i=1; i < v.length; i++) {
 		XMLElement current_vote = v[i];
@@ -68,7 +70,7 @@ XMLElement[] sortByDate(XMLElement[] v) {
 						// check to see if it's smaller than the next sorted date
 						if( current_vote_date.before(grabDateTime(sorted[j+1]))) {
 							// splice in between
-							/*splice(sorted, j, current_vote_date);*/
+							// splice(sorted, j, current_vote_date);
 						}
 					// otherwise we're at the end, append this vote
 					} else {
@@ -83,10 +85,10 @@ XMLElement[] sortByDate(XMLElement[] v) {
 		println("ERROR! sortByDate() result array isn't same length as original");
 	}
 	return sorted;
-}
+}*/
 
 // grab date & time from the XMLElement, return a date object
-Date grabDateTime(XMLElement e) {
+/*Date grabDateTime(XMLElement e) {
 	String date = e.getChild("date").getContent();
 	String time = e.getChild("time").getContent();
 	String date_time =  date + " " + time;
@@ -101,11 +103,11 @@ Date grabDateTime(XMLElement e) {
 	}
 	
 	return parsed;
-}
+}*/
 
 // merge the two arrays
 // (oops, reinventing the wheel)
-XMLElement[] mergeArrays(XMLElement[] a1, XMLElement[] a2) {
+/*XMLElement[] mergeArrays(XMLElement[] a1, XMLElement[] a2) {
 	int new_length = a1.length + a2.length;
 	XMLElement[] new_array = new XMLElement[new_length];
 	
@@ -123,4 +125,4 @@ XMLElement[] mergeArrays(XMLElement[] a1, XMLElement[] a2) {
 	}
 	
 	return new_array;
-}
+}*/
