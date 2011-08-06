@@ -1,10 +1,7 @@
 War Room
 ========
 
-
-
-
-
+Collecting congressional bill data, and representing it as a video game / artillery fire. Understanding absurdity through absurdity.
 
 TODO
 ----
