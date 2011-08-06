@@ -22,25 +22,26 @@ public class WRVoteData {
 		this.house_votes = getWRVoteArrayList(house_xml, WRVoteData.HOUSE);
 		
 		this.votes = new ArrayList();
-		votes.add(senate_votes);
-		votes.add(house_votes);
+		votes.addAll(senate_votes);
+		votes.addAll(house_votes);		
 	}
 	
-	ArrayList getWRVoteArrayList(XMLElement xml, int chamber) {
-		XMLElements[] vote_elements = xml.getChildren("results/votes/vote");
+	
+	
+	private ArrayList getWRVoteArrayList(XMLElement xml, int chamber) {
+		XMLElement[] vote_elements = xml.getChildren("results/votes/vote");
 		ArrayList al = new ArrayList();	
 		
 		for(int i=0; i<vote_elements.length; i++) {
-			al.add(new WRVote(vote_elements[i]), chamber);
+			WRVote vote = new WRVote(vote_elements[i], chamber);
+			al.add(vote);
 		}
 
 		return al;
 	}
 }
 
-public class WRVoteTimeline {
-	
-}
+public class WRVoteTimeline {}
 
 public class WRVote {
 	
@@ -53,7 +54,7 @@ public class WRVote {
 	public String description;
 	public int party_affiliation;
 		
-	public WRVote(XMLElement vote_xml, chamber) {
+	public WRVote(XMLElement vote_xml, int chamber) {
 		this.date = this.formatDate(vote_xml);
 		this.chamber = chamber;
 		this.congress = Integer.parseInt(vote_xml.getChild("congress").getContent());
@@ -63,7 +64,7 @@ public class WRVote {
 		this.description = vote_xml.getChild("description").getContent();
 		this.party_affiliation = this.getPartyAffiliation(vote_xml);
 	}
-	
+		
 	private int getPartyAffiliation(XMLElement vote_xml) {
 		return WRVoteData.DEMOCRAT;
 	}
@@ -78,7 +79,6 @@ public class WRVote {
 		// do it
 		try{
 			parsed = format.parse(date_time);
-			println(parsed.toString());
 		} catch(ParseException pe) {
 			println("ERROR: Cannot parse \"" + date_time + "\"");
 		}

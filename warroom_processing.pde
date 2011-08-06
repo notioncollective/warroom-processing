@@ -1,7 +1,5 @@
  // War Room @ eyebeam for #arthack Aug 2011
 
-import java.text.SimpleDateFormat;
-
 WRVoteData vote_data;
 String HOUSE_TEST_DATA_PATH = "xml/house_2011-02.xml";
 String SENATE_TEST_DATA_PATH = "xml/senate_2011-02.xml";
@@ -9,6 +7,8 @@ String API_KEY = "d79e05d7ab36d22f0b1ff14d30c48ae3:10:40476694";
 
 
 void setup() {
+	println("bp");
+	
 	size(1024, 768);
 	XMLElement house = new XMLElement(this, HOUSE_TEST_DATA_PATH);
 	XMLElement senate = new XMLElement(this, SENATE_TEST_DATA_PATH);
@@ -21,14 +21,17 @@ void setup() {
 	
 	vote_data = new WRVoteData(house, senate, API_KEY);
 	
-	votes = vote_data.votes;
+	
+	ArrayList votes = vote_data.votes;
+	println(votes.size());
 	
 	// print house votes
-	for(int i=0; i < votes.length; i++) {
-		String result = votes.get(i).result;
+	for(int i=0; i < votes.size(); i++) {
+		WRVote vote = (WRVote)votes.get(i);
+		String result = vote.result;
 		// Make sure the vote didn't fail ( alternatives are "Passed" for bill and "Agreed to" for amendments)
 		if(!result.equals("Failed")) {
-			println(votes.get(i).description;
+			println(vote.description);
 		}
 	}
 	
