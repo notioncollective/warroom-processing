@@ -3,8 +3,7 @@
 WRVoteData vote_data;
 String HOUSE_TEST_DATA_PATH = "xml/house_2011-02.xml";
 String SENATE_TEST_DATA_PATH = "xml/senate_2011-02.xml";
-String API_KEY = "d79e05d7ab36d22f0b1ff14d30c48ae3:10:40476694";
-
+String API_KEY;
 
 void setup() {	
 	size(1024, 768);
@@ -16,6 +15,9 @@ void setup() {
 	/*XMLElement[] votes = mergeArrays(house_votes, senate_votes);*/
 	/*votes = sortByDate(votes);*/
 	/*println(votes.length);*/
+	
+	API_KEY = loadStrings("api_key.txt")[0];
+	println(API_KEY);
 	
 	vote_data = new WRVoteData(house, senate, API_KEY);
 	
