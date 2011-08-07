@@ -200,6 +200,7 @@ public class WRVote {
 		
                 this.winner = this.getWinner(vote_xml);
                 
+                
 		// get the bill
 //		// check the bill cache
 //		if(bill_cache.containsKey(this.cleanBillNumber(this.bill_number))) {
