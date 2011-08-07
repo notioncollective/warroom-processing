@@ -233,6 +233,15 @@ public class WRVote {
 		return clean_bill_number;
 	}
 	
+	public boolean interpretResult(String result) {
+		Pattern passPattern = Pattern.compile("pass|agree|confirm", Pattern.CASE_INSENSITIVE);
+		Pattern failPattern = Pattern.compile("fail|reject", Pattern.CASE_INSENSITIVE);
+		if(match(result, passPattern)) {
+			return true;
+		} else if(match(result, failPattern)) {
+			return false;
+		} else { return null; }
+	}
 
 	// grab date & time from the XMLElement, return a date object
 	private Date formatDate(XMLElement e) {
