@@ -38,10 +38,14 @@ color blue = color(16, 11, 236);
 color red = color(247, 1, 36);
 color black = color(0, 0, 0);
 
+int screenXMid = screen.width/2;
+int screenYMid = screen.height/2;
+
 void setup() {	
 	
 	// display stuff
-	size(1024, 768);
+	//size(1024, 768);
+        size(screen.width, screen.height);
 	frameRate(30);
   
 	title_font = loadFont("ChunkFive-50.vlw");
@@ -84,8 +88,6 @@ void setup() {
 	}
 	
 	vote_data = new WRVoteData(house, senate, API_KEY);
-	
-
 }
 
 
@@ -107,7 +109,7 @@ void draw() {
 		drawBill();
 		shoot(current_vote.winner);
 		vote_count++;
-		delay(3000);
+		delay(1000);
 	} else {
 		textFont(score_font);
 		println("GAME OVER");
@@ -147,29 +149,35 @@ void clearScreen() {
 }
 
 void drawMap() {
+    int mapXPos = screenXMid-red_map.width/2;
+    int mapYPos = screenYMid-red_map.height/2;
 	if(gop_score > dems_score) {
-		image(red_map, 100, 130);
+		image(red_map, mapXPos, mapYPos);
 	} else if (gop_score < dems_score) {
-		image(blue_map, 100, 130);		
+		image(blue_map, mapXPos, mapYPos);		
 	} else {
-		image(flag_map, 100, 130);		
+		image(flag_map, mapXPos, mapYPos);		
 	}
 }
 
 void drawTitle() {
 	/*textFont(title_font);
 	text(game_title, 300, 100);*/
-	image(title_image, 200, 30);
+	image(title_image, screenXMid-title_image.width/2, screenYMid-title_image.height/2);
 }
 
 void drawScore() {
+        int tbWidth = 200;
+        int tbHeight = 200;
 	textFont(score_font);
 	String d = "D:"+str(dems_score);
 	String r = "R:"+str(gop_score);
 	fill(blue);
-	text(d, 50, 100);
+        textAlign(LEFT);
+	text(d, 50, 100, tbWidth, tbHeight);
 	fill(red);
-	text(r, 850, 100);
+        textAlign(RIGHT);
+	text(r, screen.width-(tbWidth+50), 100, tbWidth, tbHeight);
 	fill(white);
 }
 
@@ -177,6 +185,7 @@ void drawBill() {
 	WRVote current_vote = (WRVote)vote_data.votes.get(vote_count);
 	String text = current_vote.bill_number + " // " + current_vote.date.toString();
 	textFont(bill_font);
-	text(text, 200, 700);
+        textAlign(CENTER);
+	text(text, screenXMid-400, 700, 800, 200);
 }
 
