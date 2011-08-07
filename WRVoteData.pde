@@ -26,11 +26,22 @@ public class WRVoteData {
 		this.house_votes = getWRVoteArrayList(house_xml, WRVoteData.HOUSE);
 		
 		this.votes = new ArrayList();
-		votes.addAll(senate_votes);
-		votes.addAll(house_votes);		
+		this.votes.addAll(senate_votes);
+		this.votes.addAll(house_votes);
+
+                this.sortByDate(votes);
 	}
 	
-	
+	private void sortByDate(ArrayList votes) {
+          Collections.sort(votes, new Comparator() {
+ 
+            public int compare(Object o1, Object o2) {
+                WRVote v1 = (WRVote) o1;
+                WRVote v2 = (WRVote) o2;
+                return v1.date.compareTo(v2.date);
+            }
+          });
+        }
 	
 	private ArrayList getWRVoteArrayList(XMLElement xml, int chamber) {
 		XMLElement[] vote_elements = xml.getChildren("results/votes/vote");

@@ -4,8 +4,9 @@ import processing.serial.*;
 Serial port;
 // for sending messages
 public static final char HEADER = '|';
+public static final char WIN = 'W';
 public static final char DEM = 'D';
-public static final char DEM = 'R';
+public static final char REP = 'R';
 
 WRVoteData vote_data;
 String HOUSE_TEST_DATA_PATH = "xml/house_2011-02.xml";
@@ -32,7 +33,7 @@ void setup() {
         // serial output should either be DEM or REP?
         char serialOutput = DEM;
 	println(serialOutput);
-	sendMessage(ELEVATION, serialOutput);
+	sendMessage(WIN, serialOutput);
 	
 	ArrayList votes = vote_data.votes;
 	println(votes.size());
@@ -42,9 +43,9 @@ void setup() {
 		WRVote vote = (WRVote)votes.get(i);
 		String result = vote.result;
 		// Make sure the vote didn't fail ( alternatives are "Passed" for bill and "Agreed to" for amendments)
-		if(!result.equals("Failed")) {
-			println(vote.description);
-		}
+		
+	        println(vote.date);
+		
 	}
 	
 }
