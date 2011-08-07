@@ -8,7 +8,7 @@ String HOUSE_TEST_DATA_PATH = "xml/house_2011-02.xml";
 String SENATE_TEST_DATA_PATH = "xml/senate_2011-02.xml";
 String API_KEY;
 
-String game_date = "February 2011";
+String game_date = "FEBRUARY 2011";
 
 Serial port;
 // for sending messages
@@ -108,6 +108,7 @@ void draw() {
 		clearScreen();
 		drawScore();
 		drawBill();
+		drawBillInfo();
 		shoot(current_vote.winner);
 		vote_count++;
 		delay(1000);
@@ -146,13 +147,13 @@ void clearScreen() {
 	/*background(242, 19, 19);*/
 	background(black);
 	drawTitle();
-	drawGameDate();
+	/*drawGameDate();*/
 	drawMap();
 }
 
 void drawMap() {
     int mapXPos = screenXMid-red_map.width/2;
-    int mapYPos = screenYMid-red_map.height/2;
+    int mapYPos = screenYMid-red_map.height/2 + 20;
 	if(gop_score > dems_score) {
 		image(red_map, mapXPos, mapYPos);
 	} else if (gop_score < dems_score) {
@@ -166,7 +167,7 @@ void drawTitle() {
 	textFont(title_font);
 	fill(white);
 	textAlign(CENTER);
-	text(game_title, 0, 20, screen.width, 100);
+	text(game_title, 0, 10, screen.width, 100);
 	/*image(title_image, screenXMid-title_image.width/2, screenYMid-title_image.height/2);*/
 }
 
@@ -174,27 +175,53 @@ void drawGameDate() {
 	textFont(bill_font);
 	fill(grey);
 	textAlign(CENTER);
-	text(game_date, 0, 100, screen.width, 40);
+	text(game_date, 0, 80, screen.width, 40);
 }
 
 void drawScore() {
-        int tbWidth = 200;
-        int tbHeight = 200;
+  int tbWidth = 200;
+  int tbHeight = 200;
 	textFont(score_font);
 	String d = "D:"+str(dems_score);
 	String r = "R:"+str(gop_score);
 	fill(blue);
-        textAlign(LEFT);
-	text(d, 50, 90, tbWidth, tbHeight);
+  textAlign(LEFT);
+	text(d, 50, 80, tbWidth, tbHeight);
 	fill(red);
-        textAlign(RIGHT);
-	text(r, screen.width-(tbWidth+50), 90, tbWidth, tbHeight);
+  textAlign(RIGHT);
+	text(r, screen.width-(tbWidth+50), 80, tbWidth, tbHeight);
 	fill(white);
+}
+
+void drawBillInfo() {
+	WRVote current_vote = (WRVote)vote_data.votes.get(vote_count);
+	
+	textFont(score_font);
+	textAlign(CENTER);
+	
+	switch(current_vote.winner) {
+		case WRVoteData.REPUBLICAN:
+			fill(red);
+			break;
+		case WRVoteData.DEMOCRAT:
+			fill(blue);
+			break;
+		default:
+			fill(white);
+			break;
+	}
+	text(current_vote.result, screenXMid-400, 80, 800, 200);
+	
+	textFont(bill_font);
+	String text = current_vote.description;
+	textAlign(CENTER);
+	fill(white);
+	text(text, screenXMid-400, screenYMid-100, 800, 400);
 }
 
 void drawBill() {
 	WRVote current_vote = (WRVote)vote_data.votes.get(vote_count);
-	String text = current_vote.bill_number + ": " + current_vote.date.toString();
+	String text = "Vote: "+current_vote.bill_number + " - " + current_vote.date.toString();
 	textFont(bill_font);
         textAlign(CENTER);
 	text(text, screenXMid-400, 700, 800, 200);
