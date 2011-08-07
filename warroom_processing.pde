@@ -62,7 +62,7 @@ void setup() {
 	drawScore();
 
 
-  port = new Serial(this, Serial.list()[0], 9600); 
+  port = new Serial(this, "/dev/tty.usbmodemfd121", 9600); 
         
 	XMLElement house = new XMLElement(this, HOUSE_TEST_DATA_PATH);
 	XMLElement senate = new XMLElement(this, SENATE_TEST_DATA_PATH);
