@@ -111,7 +111,7 @@ void draw() {
 		drawBillInfo();
 		shoot(current_vote.winner);
 		vote_count++;
-		delay(1000);
+		delay(3000);
 	} else {
 		textFont(score_font);
 		println("GAME OVER");
@@ -224,6 +224,6 @@ void drawBill() {
 	String text = "Vote: "+current_vote.bill_number + " - " + current_vote.date.toString();
 	textFont(bill_font);
         textAlign(CENTER);
-	text(text, screenXMid-400, 700, 800, 200);
+	text(text, screenXMid-400, screen.height-100, 800, 200);
 }
 
