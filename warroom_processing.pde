@@ -1,17 +1,17 @@
  // War Room @ eyebeam for #arthack Aug 2011
-/*import processing.serial.*;*/
-
-/*Serial port;*/
-// for sending messages
-/*public static final char HEADER = '|';
-public static final char WIN = 'W';
-public static final char DEM = 'D';
-public static final char REP = 'R';*/
+import processing.serial.*;
 
 WRVoteData vote_data;
 String HOUSE_TEST_DATA_PATH = "xml/house_2011-02.xml";
 String SENATE_TEST_DATA_PATH = "xml/senate_2011-02.xml";
 String API_KEY;
+
+Serial port;
+// for sending messages
+public static final char HEADER = '|';
+public static final char WIN = 'W';
+public static final char DEM = 'D';
+public static final char REP = 'R';
 
 PFont score_font;
 PFont bill_font;
@@ -35,7 +35,8 @@ void setup() {
 	clearScreen();
 	drawScore();
 
-  /*port = new Serial(this, Serial.list()[0], 9600); */
+
+  port = new Serial(this, Serial.list()[0], 9600); 
         
 	XMLElement house = new XMLElement(this, HOUSE_TEST_DATA_PATH);
 	XMLElement senate = new XMLElement(this, SENATE_TEST_DATA_PATH);
@@ -53,24 +54,9 @@ void setup() {
 	
 	vote_data = new WRVoteData(house, senate, API_KEY);
 	
-  // serial output should either be DEM or REP?
-  /*char serialOutput = DEM;
-	println(serialOutput);
-	sendMessage(WIN, serialOutput);*/
-	
-	ArrayList votes = vote_data.votes;
-	
-	// print house votes
-	for(int i=0; i < votes.size(); i++) {
-		WRVote vote = (WRVote)votes.get(i);
-		String result = vote.result;
-		// Make sure the vote didn't fail ( alternatives are "Passed" for bill and "Agreed to" for amendments)
-		
-	        println(vote.date);
-		
-	}
-	loop();
+
 }
+
 
 void draw() {
 	if(vote_count < vote_data.votes.size()) {
@@ -88,6 +74,7 @@ void draw() {
 		clearScreen();
 		drawScore();
 		drawBill();
+		shoot(current_vote.winner);
 		vote_count++;
 		delay(3000);
 	} else {
@@ -99,8 +86,25 @@ void draw() {
 	}
 }
 
+void shoot(int winner) {
+	switch(winner) {
+		case WRVoteData.DEMOCRAT:
+			sendMessage('W','D');
+			break;
+		case WRVoteData.REPUBLICAN:
+			sendMessage('W','R');
+			break;
+	}
+}
+
 void mouseClicked() {
 	exit();
+}
+
+void sendMessage(char tag, int value){
+  port.write(HEADER);
+  port.write(tag);
+  port.write(value);
 }
 
 void clearScreen() {
@@ -123,8 +127,3 @@ void drawBill() {
 	text(text, 200, 700);
 }
 
-/*void sendMessage(char tag, int value){
-  port.write(HEADER);
-  port.write(tag);
-  port.write(value);
-}*/
