@@ -6,9 +6,7 @@ String SENATE_TEST_DATA_PATH = "xml/senate_2011-02.xml";
 String API_KEY = "d79e05d7ab36d22f0b1ff14d30c48ae3:10:40476694";
 
 
-void setup() {
-	println("bp");
-	
+void setup() {	
 	size(1024, 768);
 	XMLElement house = new XMLElement(this, HOUSE_TEST_DATA_PATH);
 	XMLElement senate = new XMLElement(this, SENATE_TEST_DATA_PATH);

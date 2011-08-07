@@ -16,8 +16,10 @@ public class WRVoteData {
 	public Date start_date;
 	public Date end_date;
 	
+	public HashMap bill_cache;
 	
 	public WRVoteData(XMLElement house_xml, XMLElement senate_xml, String api_key ) {
+		this.bill_cache = new HashMap();
 		this.api_key = api_key;
 		this.senate_votes = getWRVoteArrayList(senate_xml, WRVoteData.SENATE);
 		this.house_votes = getWRVoteArrayList(house_xml, WRVoteData.HOUSE);
@@ -33,12 +35,44 @@ public class WRVoteData {
 		XMLElement[] vote_elements = xml.getChildren("results/votes/vote");
 		ArrayList al = new ArrayList();	
 		
+		println(vote_elements.length);
+		
 		for(int i=0; i<vote_elements.length; i++) {
-			WRVote vote = new WRVote(vote_elements[i], chamber, this.api_key);
-			al.add(vote);
+			if(filterVote(vote_elements[i])) {
+				WRVote vote = new WRVote(vote_elements[i], chamber, this.bill_cache, this.api_key);
+				println(vote.bill_number);
+				al.add(vote);
+				if(!bill_cache.containsKey(vote.getCleanBillNumber())) {
+					bill_cache.put(vote.getCleanBillNumber(), vote.bill);
+				}
+				try {
+					Thread.sleep(200);
+				} catch(InterruptedException e) {
+					println("ERROR! Throw that shit.");
+				}
+			}
 		}
-
 		return al;
+	}
+	
+	private boolean filterVote(XMLElement vote) {
+				
+		// check to see if there is a value for bill_number
+		if(vote.getChild("bill_number").getContent() == null) {
+			return false;
+		}
+		
+		// check to make sure it's a house/senate bill (not a nomination)
+		String bill_number_first_char = vote.getChild("bill_number").getContent().substring(0,1);
+		if(!(bill_number_first_char.equals("H") || bill_number_first_char.equals("S"))) {
+			return false;
+		}
+		
+		// check to make sure it's not a motion
+		if(match(vote.getChild("result").getContent(),"Motion") != null) { return false; }		
+		
+		// guess it's ok?
+		return true;
 	}
 }
 
@@ -80,14 +114,15 @@ public class WRApiObject {
 	}
 	
 	private XMLElement apiCall() {
-		String path = this.obj_uri + "&api-key=" + this.api_key;
+		String path = this.obj_uri + "?api-key=" + this.api_key;
 		XMLElement xmlResponse = new XMLElement(loadUri(path));
 		return xmlResponse;
 	}
 	
 	private String loadUri(String path) {
+		println("Load url: "+path);
 		String lines[] = loadStrings(path);
-		if(lines == null) { println("API read error: "+path); return null; }
+		/*if(lines == null) { println("API read error: "+path); return null; }*/
 		String response = join(lines, "\n");
 		
 		return response;
@@ -148,41 +183,50 @@ public class WRVote {
 	public String description;
 	public int party_affiliation;
 		
-	public WRVote(XMLElement vote_xml, int chamber, String api_key) {
+	public WRVote(XMLElement vote_xml, int chamber, HashMap bill_cache, String api_key) {
 		
 		this.api_key = api_key;
 		
 		this.date = this.formatDate(vote_xml);
 		this.chamber = chamber;
 		this.congress = Integer.parseInt(vote_xml.getChild("congress").getContent());
-		this.congress = Integer.parseInt(vote_xml.getChild("session").getContent());
+		this.session = Integer.parseInt(vote_xml.getChild("session").getContent());
 		this.bill_number = vote_xml.getChild("bill_number").getContent();
 		this.result = vote_xml.getChild("result").getContent();
 		this.description = vote_xml.getChild("description").getContent();
 		this.party_affiliation = this.getPartyAffiliation(vote_xml);
 		
 		// get the bill
-		String bill_uri = this.buildBillUri(this.congress, this.bill_number, api_key);
-		this.bill = new WRBill( bill_uri, this.api_key);
+		// check the bill cache
+		if(bill_cache.containsKey(this.cleanBillNumber(this.bill_number))) {
+			this.bill = (WRBill)bill_cache.get(this.cleanBillNumber(this.bill_number));
+		} else {
+			String bill_uri = this.buildBillUri(this.congress, this.bill_number, api_key);
+			this.bill = new WRBill(bill_uri, this.api_key);
+		}
 	}
 
 
 		
 	private int getPartyAffiliation(XMLElement vote_xml) {
-		println(bill.get("title"));
+		/*println(this.bill.get("title"));*/
 		
 		return WRVoteData.DEMOCRAT;
 	}
 	
 	public String buildBillUri(int congress, String bill_id, String api_key) {
-		String uri = "http://api.nytimes.com/svc/politics/v3/us/legislative/congress/"+ congress+"/bills/" + this.cleanBillNumber(bill_id) + ".xml?api-key=" + api_key;
+		String uri = "http://api.nytimes.com/svc/politics/v3/us/legislative/congress/"+ congress+"/bills/" + this.cleanBillNumber(bill_id) + ".xml";
 		return uri;
+	}
+	
+	public String getCleanBillNumber() {
+		return this.cleanBillNumber(this.bill_number);
 	}
 	
 	public String cleanBillNumber(String bill_number) {
 		String clean_bill_number = bill_number;
 		char[] rm_chars = { ' ','.'	};
-		for(int i=1; i<rm_chars.length; i++) {
+		for(int i=0; i<rm_chars.length; i++) {
 			String[] splitted = split(clean_bill_number, rm_chars[i]);
 			clean_bill_number = join(splitted, "");
 		}
