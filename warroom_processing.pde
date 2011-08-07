@@ -37,6 +37,7 @@ color white = color(255, 255, 255);
 color blue = color(16, 11, 236);
 color red = color(247, 1, 36);
 color black = color(0, 0, 0);
+color grey = color(200);
 
 int screenXMid = screen.width/2;
 int screenYMid = screen.height/2;
@@ -48,7 +49,7 @@ void setup() {
         size(screen.width, screen.height);
 	frameRate(30);
   
-	title_font = loadFont("ChunkFive-50.vlw");
+	title_font = loadFont("FFFGalaxyExtraBoldExtended-55.vlw");
 	score_font = loadFont("VT323-90.vlw");
 	bill_font = loadFont("VT323-40.vlw");
 	
@@ -145,6 +146,7 @@ void clearScreen() {
 	/*background(242, 19, 19);*/
 	background(black);
 	drawTitle();
+	drawGameDate();
 	drawMap();
 }
 
@@ -161,9 +163,18 @@ void drawMap() {
 }
 
 void drawTitle() {
-	/*textFont(title_font);
-	text(game_title, 300, 100);*/
-	image(title_image, screenXMid-title_image.width/2, screenYMid-title_image.height/2);
+	textFont(title_font);
+	fill(white);
+	textAlign(CENTER);
+	text(game_title, 0, 20, screen.width, 100);
+	/*image(title_image, screenXMid-title_image.width/2, screenYMid-title_image.height/2);*/
+}
+
+void drawGameDate() {
+	textFont(bill_font);
+	fill(grey);
+	textAlign(CENTER);
+	text(game_date, 0, 100, screen.width, 40);
 }
 
 void drawScore() {
@@ -174,16 +185,16 @@ void drawScore() {
 	String r = "R:"+str(gop_score);
 	fill(blue);
         textAlign(LEFT);
-	text(d, 50, 100, tbWidth, tbHeight);
+	text(d, 50, 90, tbWidth, tbHeight);
 	fill(red);
         textAlign(RIGHT);
-	text(r, screen.width-(tbWidth+50), 100, tbWidth, tbHeight);
+	text(r, screen.width-(tbWidth+50), 90, tbWidth, tbHeight);
 	fill(white);
 }
 
 void drawBill() {
 	WRVote current_vote = (WRVote)vote_data.votes.get(vote_count);
-	String text = current_vote.bill_number + " // " + current_vote.date.toString();
+	String text = current_vote.bill_number + ": " + current_vote.date.toString();
 	textFont(bill_font);
         textAlign(CENTER);
 	text(text, screenXMid-400, 700, 800, 200);
