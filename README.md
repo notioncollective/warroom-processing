@@ -3,6 +3,11 @@ War Room
 
 Collecting congressional bill data, and representing it as a video game / artillery fire. Understanding absurdity through absurdity.
 
+Installation
+------------
+
+Create a text file called "api_key.txt" in your project directory, then paste your NYT API key into it. 
+
 TODO
 ----
 
