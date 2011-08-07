@@ -207,11 +207,8 @@ public class WRVote {
 		this.bill_number = vote_xml.getChild("bill_number").getContent();
 		this.result = vote_xml.getChild("result").getContent();
 		this.description = vote_xml.getChild("description").getContent();
-		this.party_affiliation = this.getPartyAffiliation(vote_xml);
-		
-                this.winner = this.getWinner(vote_xml);
-                
-                
+		this.winner = this.getWinner(vote_xml);
+                                
 		// get the bill
 //		// check the bill cache
 //		if(bill_cache.containsKey(this.cleanBillNumber(this.bill_number))) {
@@ -259,18 +256,6 @@ public class WRVote {
           
           return 4;
         }
-
-		
-	private int getPartyAffiliation(XMLElement vote_xml) {
-		/*println(this.bill.get("title"));*/
-		
-		return WRVoteData.DEMOCRAT;
-	}
-	
-//	public String buildBillUri(int congress, String bill_id, String api_key) {
-//		String uri = "http://api.nytimes.com/svc/politics/v3/us/legislative/congress/"+ congress+"/bills/" + this.cleanBillNumber(bill_id) + ".xml";
-//		return uri;
-//	}
 	
 	public String getCleanBillNumber() {
 		return this.cleanBillNumber(this.bill_number);
