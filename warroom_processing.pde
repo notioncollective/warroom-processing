@@ -1,4 +1,11 @@
  // War Room @ eyebeam for #arthack Aug 2011
+import processing.serial.*;
+
+Serial port;
+// for sending messages
+public static final char HEADER = '|';
+public static final char DEM = 'D';
+public static final char DEM = 'R';
 
 WRVoteData vote_data;
 String HOUSE_TEST_DATA_PATH = "xml/house_2011-02.xml";
@@ -8,6 +15,9 @@ String API_KEY = "d79e05d7ab36d22f0b1ff14d30c48ae3:10:40476694";
 
 void setup() {	
 	size(1024, 768);
+
+        port = new Serial(this, Serial.list()[0], 9600); 
+        
 	XMLElement house = new XMLElement(this, HOUSE_TEST_DATA_PATH);
 	XMLElement senate = new XMLElement(this, SENATE_TEST_DATA_PATH);
 	/*XMLElement[] house_votes = grabVotes(house);	*/
@@ -19,6 +29,10 @@ void setup() {
 	
 	vote_data = new WRVoteData(house, senate, API_KEY);
 	
+        // serial output should either be DEM or REP?
+        char serialOutput = DEM;
+	println(serialOutput);
+	sendMessage(ELEVATION, serialOutput);
 	
 	ArrayList votes = vote_data.votes;
 	println(votes.size());
@@ -33,6 +47,13 @@ void setup() {
 		}
 	}
 	
+}
+
+
+void sendMessage(char tag, int value){
+  port.write(HEADER);
+  port.write(tag);
+  port.write(value);
 }
 
 // grab votes from the root xmnl node
