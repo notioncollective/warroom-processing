@@ -6,6 +6,7 @@ public class WRVoteData {
 	public static final int HOUSE = 1;
 	public static final int DEMOCRAT = 2;
 	public static final int REPUBLICAN = 3;
+        public static final int TIE = 4;
 	
 	private String api_key;
 	
@@ -39,17 +40,17 @@ public class WRVoteData {
 		
 		for(int i=0; i<vote_elements.length; i++) {
 			if(filterVote(vote_elements[i])) {
-				WRVote vote = new WRVote(vote_elements[i], chamber, this.bill_cache, this.api_key);
+				WRVote vote = new WRVote(vote_elements[i], chamber, this.api_key);
 				println(vote.bill_number);
 				al.add(vote);
-				if(!bill_cache.containsKey(vote.getCleanBillNumber())) {
-					bill_cache.put(vote.getCleanBillNumber(), vote.bill);
-				}
-				try {
-					Thread.sleep(200);
-				} catch(InterruptedException e) {
-					println("ERROR! Throw that shit.");
-				}
+//				if(!bill_cache.containsKey(vote.getCleanBillNumber())) {
+//					bill_cache.put(vote.getCleanBillNumber(), vote.bill);
+//				}
+//				try {
+//					Thread.sleep(200);
+//				} catch(InterruptedException e) {
+//					println("ERROR! Throw that shit.");
+//				}
 			}
 		}
 		return al;
@@ -173,7 +174,7 @@ public class WRVote {
 	
 	private String api_key;
 	
-	public WRBill bill;
+//	public WRBill bill;
 	public int chamber;
 	public Date date;
 	public int congress;
@@ -182,8 +183,9 @@ public class WRVote {
 	public String result;
 	public String description;
 	public int party_affiliation;
+        public int winner;
 		
-	public WRVote(XMLElement vote_xml, int chamber, HashMap bill_cache, String api_key) {
+	public WRVote(XMLElement vote_xml, int chamber, String api_key) {
 		
 		this.api_key = api_key;
 		
@@ -196,16 +198,56 @@ public class WRVote {
 		this.description = vote_xml.getChild("description").getContent();
 		this.party_affiliation = this.getPartyAffiliation(vote_xml);
 		
+                this.winner = this.getWinner(vote_xml);
+                
+                
 		// get the bill
-		// check the bill cache
-		if(bill_cache.containsKey(this.cleanBillNumber(this.bill_number))) {
-			this.bill = (WRBill)bill_cache.get(this.cleanBillNumber(this.bill_number));
-		} else {
-			String bill_uri = this.buildBillUri(this.congress, this.bill_number, api_key);
-			this.bill = new WRBill(bill_uri, this.api_key);
-		}
+//		// check the bill cache
+//		if(bill_cache.containsKey(this.cleanBillNumber(this.bill_number))) {
+//			this.bill = (WRBill)bill_cache.get(this.cleanBillNumber(this.bill_number));
+//		} else {
+//			String bill_uri = this.buildBillUri(this.congress, this.bill_number, api_key);
+//			this.bill = new WRBill(bill_uri, this.api_key);
+//		}
 	}
 
+        private int getWinner(XMLElement vote_xml) {
+          // @TODO check if bill passed (regex pending from Andy)
+          int billPassed = 1;
+          
+          // check dem majority pos
+          String demPosStr = vote_xml.getChild("democratic").getChild("majority_position").getContent();
+          println("Dem Position: "+demPosStr);
+          int demPosInt = 0;
+          if(demPosStr.equals("Yes")) { 
+            demPosInt = 1;
+          }
+          
+          // check dem majority pos
+          String repPosStr = vote_xml.getChild("republican").getChild("majority_position").getContent();
+          println("Rep Position: "+repPosStr);
+          int repPosInt = 0;
+          if(repPosStr.equals("Yes")) { 
+            repPosInt = 1;
+          }
+          
+          // TIE
+          if(repPosInt == demPosInt) {
+            return 4;
+          }
+          
+          // DEM WIN
+          if(demPosInt == billPassed && repPosInt != billPassed) {
+            return 2;
+          }
+          
+          // REP WIN
+          if(repPosInt == billPassed && demPosInt != billPassed) {
+            return 3;
+          }
+          
+          return 4;
+        }
 
 		
 	private int getPartyAffiliation(XMLElement vote_xml) {
@@ -214,10 +256,10 @@ public class WRVote {
 		return WRVoteData.DEMOCRAT;
 	}
 	
-	public String buildBillUri(int congress, String bill_id, String api_key) {
-		String uri = "http://api.nytimes.com/svc/politics/v3/us/legislative/congress/"+ congress+"/bills/" + this.cleanBillNumber(bill_id) + ".xml";
-		return uri;
-	}
+//	public String buildBillUri(int congress, String bill_id, String api_key) {
+//		String uri = "http://api.nytimes.com/svc/politics/v3/us/legislative/congress/"+ congress+"/bills/" + this.cleanBillNumber(bill_id) + ".xml";
+//		return uri;
+//	}
 	
 	public String getCleanBillNumber() {
 		return this.cleanBillNumber(this.bill_number);
