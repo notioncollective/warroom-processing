@@ -61,8 +61,13 @@ void setup() {
 	clearScreen();
 	drawScore();
 
-
-  port = new Serial(this, "/dev/tty.usbmodemfd121", 9600); 
+	String[] port_strings = loadStrings("port.txt");
+	if(port_strings != null) {
+		println("Port: "+port_strings[0]);
+		port = new Serial(this, port_strings[0], 9600); 
+	} else {
+		port = new Serial(this, Serial.list()[0], 9600); 
+	}
         
 	XMLElement house = new XMLElement(this, HOUSE_TEST_DATA_PATH);
 	XMLElement senate = new XMLElement(this, SENATE_TEST_DATA_PATH);
