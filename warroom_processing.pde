@@ -13,8 +13,27 @@ String HOUSE_TEST_DATA_PATH = "xml/house_2011-02.xml";
 String SENATE_TEST_DATA_PATH = "xml/senate_2011-02.xml";
 String API_KEY;
 
+PFont score_font;
+PFont bill_font;
+
+WRVote current_vote;
+int vote_count;
+int dems_score;
+int gop_score;
+
 void setup() {	
+	
+	// display stuff
 	size(1024, 768);
+	frameRate(30);
+  
+	score_font = loadFont("VT323-90.vlw");
+	bill_font = loadFont("VT323-40.vlw");
+	vote_count = 0;
+	dems_score = 0;
+	gop_score = 0;
+	clearScreen();
+	drawScore();
 
   /*port = new Serial(this, Serial.list()[0], 9600); */
         
@@ -50,11 +69,59 @@ void setup() {
 	        println(vote.date);
 		
 	}
-	
+	loop();
 }
 
-void draw() {}
+void draw() {
+	if(vote_count < vote_data.votes.size()) {
+		WRVote current_vote = (WRVote)vote_data.votes.get(vote_count);
+		switch(current_vote.winner) {
+			case WRVoteData.REPUBLICAN:
+				gop_score++;
+				break;
+			case WRVoteData.DEMOCRAT:
+				dems_score++;
+				break;
+			default:
+				break;
+		}
+		clearScreen();
+		drawScore();
+		drawBill();
+		vote_count++;
+		delay(3000);
+	} else {
+		textFont(score_font);
+		println("GAME OVER");
+		clearScreen();
+		delay(200);
+		text("GAME OVER", 300, 300);
+	}
+}
 
+void mouseClicked() {
+	exit();
+}
+
+void clearScreen() {
+	println("Clear screen");
+	background(242, 19, 19);
+}
+
+void drawScore() {
+	textFont(score_font);
+	String d = "D:"+str(dems_score);
+	String r = "R:"+str(gop_score);
+	text(d, 100, 100);
+	text(r, 800, 100);
+}
+
+void drawBill() {
+	WRVote current_vote = (WRVote)vote_data.votes.get(vote_count);
+	String text = current_vote.bill_number + " // " + current_vote.date.toString();
+	textFont(bill_font);
+	text(text, 200, 700);
+}
 
 /*void sendMessage(char tag, int value){
   port.write(HEADER);
