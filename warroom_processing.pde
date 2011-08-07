@@ -17,7 +17,7 @@ String API_KEY = "d79e05d7ab36d22f0b1ff14d30c48ae3:10:40476694";
 void setup() {	
 	size(1024, 768);
 
-        port = new Serial(this, Serial.list()[0], 9600); 
+        port = new Serial(this, "/dev/tty.usbmodemfa131", 9600); 
         
 	XMLElement house = new XMLElement(this, HOUSE_TEST_DATA_PATH);
 	XMLElement senate = new XMLElement(this, SENATE_TEST_DATA_PATH);
@@ -31,11 +31,33 @@ void setup() {
 	vote_data = new WRVoteData(house, senate, API_KEY);
 	
         // serial output should either be DEM or REP?
-        char serialOutput = DEM;
-	println(serialOutput);
-	sendMessage(WIN, serialOutput);
+//        char serialOutput = DEM;
+//	println(serialOutput);
+//	sendMessage(WIN, serialOutput);
 	
-	ArrayList votes = vote_data.votes;
+//	ArrayList votes = vote_data.votes;
+//	println(votes.size());
+//	
+//	// print house votes
+//	for(int i=0; i < votes.size(); i++) {
+//		WRVote vote = (WRVote)votes.get(i);
+//		String result = vote.result;
+//		// Make sure the vote didn't fail ( alternatives are "Passed" for bill and "Agreed to" for amendments)
+//		
+//	        println(vote.date);
+//                
+//                if(vote.winner == 2) {
+//                  sendMessage('W', 'D');
+//                } else if (vote.winner == 3) {
+//                  sendMessage('W', 'R');
+//                }
+//                delay(200);
+//	}
+	
+}
+
+void draw() {
+ ArrayList votes = vote_data.votes;
 	println(votes.size());
 	
 	// print house votes
@@ -45,12 +67,18 @@ void setup() {
 		// Make sure the vote didn't fail ( alternatives are "Passed" for bill and "Agreed to" for amendments)
 		
 	        println(vote.date);
-		
-	}
-	
+              
+              if(vote.winner == 2) {
+                sendMessage('W', 'D');
+//                println("Dem WIN!");
+              } else if (vote.winner == 3) {
+                sendMessage('W', 'R');
+              }
+              delay(500);
+	} 
 }
 
-
+//
 void sendMessage(char tag, int value){
   port.write(HEADER);
   port.write(tag);
