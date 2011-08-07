@@ -198,8 +198,8 @@ public class WRVote {
 		this.description = vote_xml.getChild("description").getContent();
 		this.party_affiliation = this.getPartyAffiliation(vote_xml);
 		
-                this.winner = this.getWinner(vote_xml);
-                
+    this.winner = this.getWinner(vote_xml);
+    println("Winner winner, chicken dinner: "+this.winner);           
                 
 		// get the bill
 //		// check the bill cache
@@ -213,7 +213,7 @@ public class WRVote {
 
         private int getWinner(XMLElement vote_xml) {
           // @TODO check if bill passed (regex pending from Andy)
-          int billPassed = 1;
+          int billPassed = interpretResult(this.result);
           
           // check dem majority pos
           String demPosStr = vote_xml.getChild("democratic").getChild("majority_position").getContent();
@@ -275,14 +275,14 @@ public class WRVote {
 		return clean_bill_number;
 	}
 	
-	public boolean interpretResult(String result) {
-		Pattern passPattern = Pattern.compile("pass|agree|confirm", Pattern.CASE_INSENSITIVE);
-		Pattern failPattern = Pattern.compile("fail|reject", Pattern.CASE_INSENSITIVE);
-		if(match(result, passPattern)) {
-			return true;
-		} else if(match(result, failPattern)) {
-			return false;
-		} else { return null; }
+	public int interpretResult(String result) {
+		/*Pattern passPattern = Pattern.compile("pass|agree|confirm", Pattern.CASE_INSENSITIVE);*/
+		/*Pattern failPattern = Pattern.compile("fail|reject", Pattern.CASE_INSENSITIVE);*/
+		if(match(result, "Pass|Agree|Confirm") != null) {
+			return 1;
+		} else if(match(result, "Fail|Reject") != null) {
+			return 0;
+		} else { return -1; }
 	}
 
 	// grab date & time from the XMLElement, return a date object
