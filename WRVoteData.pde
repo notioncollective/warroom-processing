@@ -26,11 +26,22 @@ public class WRVoteData {
 		this.house_votes = getWRVoteArrayList(house_xml, WRVoteData.HOUSE);
 		
 		this.votes = new ArrayList();
-		votes.addAll(senate_votes);
-		votes.addAll(house_votes);		
+		this.votes.addAll(senate_votes);
+		this.votes.addAll(house_votes);
+
+                this.sortByDate(votes);
 	}
 	
-	
+	private void sortByDate(ArrayList votes) {
+          Collections.sort(votes, new Comparator() {
+ 
+            public int compare(Object o1, Object o2) {
+                WRVote v1 = (WRVote) o1;
+                WRVote v2 = (WRVote) o2;
+                return v1.date.compareTo(v2.date);
+            }
+          });
+        }
 	
 	private ArrayList getWRVoteArrayList(XMLElement xml, int chamber) {
 		XMLElement[] vote_elements = xml.getChildren("results/votes/vote");
@@ -198,8 +209,8 @@ public class WRVote {
 		this.description = vote_xml.getChild("description").getContent();
 		this.party_affiliation = this.getPartyAffiliation(vote_xml);
 		
-    this.winner = this.getWinner(vote_xml);
-    println("Winner winner, chicken dinner: "+this.winner);           
+                this.winner = this.getWinner(vote_xml);
+                
                 
 		// get the bill
 //		// check the bill cache
@@ -213,7 +224,7 @@ public class WRVote {
 
         private int getWinner(XMLElement vote_xml) {
           // @TODO check if bill passed (regex pending from Andy)
-          int billPassed = interpretResult(this.result);
+          int billPassed = 1;
           
           // check dem majority pos
           String demPosStr = vote_xml.getChild("democratic").getChild("majority_position").getContent();
@@ -275,15 +286,6 @@ public class WRVote {
 		return clean_bill_number;
 	}
 	
-	public int interpretResult(String result) {
-		/*Pattern passPattern = Pattern.compile("pass|agree|confirm", Pattern.CASE_INSENSITIVE);*/
-		/*Pattern failPattern = Pattern.compile("fail|reject", Pattern.CASE_INSENSITIVE);*/
-		if(match(result, "Pass|Agree|Confirm") != null) {
-			return 1;
-		} else if(match(result, "Fail|Reject") != null) {
-			return 0;
-		} else { return -1; }
-	}
 
 	// grab date & time from the XMLElement, return a date object
 	private Date formatDate(XMLElement e) {
